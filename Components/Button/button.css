@@ -15,7 +15,6 @@
   margin: auto;
 }
 .btn {
-  min-width: 10rem;
   width: fit-content;
   min-height: 3.1rem;
   height: fit-content;
@@ -35,11 +34,31 @@
 .btn.icon:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
 }
-.btn.icon {
-  padding: 0.6rem 1rem;
+.btn.icon-left,
+.btn.icon-right {
+  padding: 0.6rem 1.2rem;
 }
-.btn.icon i {
+.btn.icon-left i {
   padding-right: 5px;
+}
+.btn.icon-right i {
+  padding-left: 5px;
+}
+.icon-btn {
+  padding: 0px;
+}
+.icon-btn.danger-icon {
+  color: var(--red-color);
+}
+.icon-btn.primary-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--yellow-color-light);
+  color: var(--violet-color);
 }
 
 .primary-btn {
