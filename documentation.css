@@ -5,7 +5,7 @@ body {
 
 .container {
   display: grid;
-  height: max-content;
+  height: 100%;
   grid-template-columns: 230px 1fr;
   background-color: var(--primary-color);
 }
@@ -13,17 +13,16 @@ body {
 .docs-section {
   background-color: var(--white);
   grid-column-start: 2;
-  border: 4px solid var(--violet-color);
-  margin-top: 95px;
-  margin-right: 35px;
-  margin-bottom: 30px;
-  border-radius: 70px;
+  border: 2px solid var(--violet-color);
+  margin-top: 80px;
+  /* margin-right: 35px;
+  margin-bottom: 30px; */
+  border-top-left-radius: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .docs-container {
-  margin: 40px 0px;
-  width: 90%;
+  margin: 40px 50px;
 }
