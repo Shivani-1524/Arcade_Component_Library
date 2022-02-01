@@ -14,16 +14,15 @@ body {
   background-color: var(--white);
   grid-column-start: 2;
   border: 2px solid var(--violet-color);
-  margin-top: 95px;
+  margin-top: 80px;
   /* margin-right: 35px;
   margin-bottom: 30px; */
-  border-top-left-radius: 70px;
+  border-top-left-radius: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .docs-container {
-  margin: 40px 0px;
-  width: 90%;
+  margin: 40px 50px;
 }
