@@ -1,0 +1,72 @@
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  z-index: 1;
+  padding-left: 30px;
+  height: 100%;
+  width: 260px;
+  margin-top: 83px;
+  padding-top: 40px;
+  overflow-y: auto;
+  position: fixed;
+  background-color: var(--primary-color);
+}
+
+.sidenav-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidenav-section a {
+  margin-left: 35px;
+}
+
+.sidenav-item.title {
+  color: var(--light-grey);
+  width: fit-content;
+  font-size: 1.6rem;
+  font-weight: 500;
+  position: relative;
+}
+.sidenav-item.title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--violet-color);
+}
+.sidenav-item.text {
+  text-decoration: none;
+  font-size: 1.35rem;
+  display: block;
+  color: var(--grey);
+  font-weight: 500;
+  padding: 5px 0px;
+  position: relative;
+  width: fit-content;
+}
+.sidenav-item.text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--violet-color);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+.sidenav-item.text:hover {
+  cursor: pointer;
+}
+
+.sidenav-item.text:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}

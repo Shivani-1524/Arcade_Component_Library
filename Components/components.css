@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Open+Sans:wght@300;400;500;600&display=swap");
+
+@import "./SideNav/sidenav.css";
+@import "./Footer/footer.css";
+@import "./Navbar/navbar.css";
+@import "./Button/button.css";
+@import "./Alert/alert.css";
+@import "./FloatingButton/floatingbtn.css";
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--white);
+}
+
+:root {
+  --primary-color: #141414;
+  /* --secondary-color: #577399; */
+  --violet-color: #8f4bfd;
+  --orange-color: #f4550b;
+  --violet-color-light: #dbd1f5;
+  --yellow-color: #fab41c;
+  --yellow-color-light: #fdddc2;
+  --red-color: #ff5a5f;
+  --green-color: #00a699;
+  --white: #f7f7ff;
+  --grey: #989898;
+  --light-grey: #d3d3d3;
+  --dark-grey: #484848;
+
+  /* --accent-color-light: #ecf9c3;
+  --accent-color: #cdff1a; */
+}
+
+p,
+a,
+h1,
+h2,
+h3 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.md-title {
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+.rg-title {
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+.sm-title {
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.md-booky-title {
+  font-size: 2.5rem;
+  font-family: "Libre Baskerville", serif;
+}
+.md-booky-title.bold {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Libre Baskerville", serif;
+}
+.sm-booky-title {
+  font-size: 1.2rem;
+  font-family: "Libre Baskerville", serif;
+}
+
+p.rg-p {
+  font-size: 1.4rem;
+}
+p.sm-p {
+  font-size: 1.2rem;
+}
+
+.grey-txt {
+  color: var(--dark-grey);
+}
+
+/* utilities */
+.mg-t-50 {
+  margin-top: 50px !important;
+}
+.mg-t-40 {
+  margin-top: 40px !important;
+}
+.mg-t-30 {
+  margin-top: 30px !important;
+}
+.mg-t-20 {
+  margin-top: 20px !important;
+}
+.mg-t-15 {
+  margin-top: 15px !important;
+}
+.mg-t-10 {
+  margin-top: 10px !important;
+}
+
+.code-example {
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 40px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  overflow: scroll;
+  background-color: var(--violet-color-light);
+}
+.code-example .code-snip {
+  width: 100% !important;
+  height: 100% !important;
+  /* z-index: -1000; */
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    font-size: 12px;
+  }
+}

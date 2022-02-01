@@ -1,0 +1,35 @@
+.floating-btn {
+  width: 50px;
+  height: 50px;
+  background-color: var(--orange-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 10px 0 rgba(131, 130, 130, 0.822);
+  transition: all 0.1s ease-in-out;
+}
+
+.floating-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 6px 14px 0 #666;
+  transform: scale(1.05);
+}
+
+.floating-btn i {
+  font-size: 20px;
+  color: var(--accent-color);
+}
+
+.floating-btn.b-r {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+
+/* being used */
+.floating-btn.b-r.custom {
+  position: fixed;
+  right: 60px;
+  bottom: 25px;
+}
