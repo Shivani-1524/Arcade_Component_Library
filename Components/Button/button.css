@@ -31,8 +31,15 @@
   cursor: pointer;
 }
 
-.btn.solid:hover {
+.btn.solid:hover,
+.btn.icon:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
+}
+.btn.icon {
+  padding: 0.6rem 1rem;
+}
+.btn.icon i {
+  padding-right: 5px;
 }
 
 .primary-btn {
