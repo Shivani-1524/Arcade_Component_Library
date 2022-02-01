@@ -43,6 +43,9 @@ body {
   --grey: #989898;
   --light-grey: #d3d3d3;
   --dark-grey: #484848;
+  -neon: #bbff8d;
+  --hot-pink: #f31d69;
+  --creamy: #e8e7e0;
 
   font-size: 13px;
   /* --accent-color-light: #ecf9c3;
@@ -59,9 +62,9 @@ button {
 }
 
 .md-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-family: "Inter", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
 }
 .rg-title {
   font-size: 1.5rem;
@@ -71,9 +74,14 @@ button {
 .sm-title {
   font-size: 1.2rem;
   font-family: "Inter", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 }
 
+.rg-booky-title {
+  font-size: 1.5rem;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+}
 .md-booky-title {
   font-size: 2.5rem;
   font-family: "Libre Baskerville", serif;
