@@ -2,6 +2,7 @@
   width: 50px;
   height: 50px;
   background-color: var(--orange-color);
+  border: none;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -18,7 +19,7 @@
 
 .floating-btn i {
   font-size: 20px;
-  color: var(--accent-color);
+  color: var(--black);
 }
 
 .floating-btn.b-r {
