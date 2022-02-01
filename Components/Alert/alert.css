@@ -14,13 +14,12 @@
   border: 3px solid var(--primary-color);
   border-radius: 7px;
   padding: 15px 20px;
-  font-weight: 700;
-  font-size: 18px;
   width: 100%;
   min-width: fit-content;
   max-width: 800px;
   display: flex;
   align-items: center;
+  font-weight: 500;
 }
 
 .alert .sym {
