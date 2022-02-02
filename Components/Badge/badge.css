@@ -55,15 +55,15 @@
 
 .text-badge {
   width: fit-content;
-  padding: 4px 7px;
+  padding: 5px 7px;
   border-radius: 3px;
 }
 
 .text-badge.primary {
-  color: var(--neon);
+  color: var(--neon-color);
   background-color: var(--primary-color);
 }
 .text-badge.secondary {
-  color: var(--prmary-color);
-  background-color: var(--orange-color);
+  color: var(--neon-color);
+  background-color: var(--hot-pink-color);
 }
