@@ -50,7 +50,7 @@
 
 .icon-badge i {
   font-size: 17px;
-  color: var(--orange-color);
+  color: var(--neon-color);
 }
 
 .text-badge {
@@ -66,4 +66,11 @@
 .text-badge.secondary {
   color: var(--neon-color);
   background-color: var(--hot-pink-color);
+}
+
+.num-badge {
+  background-color: var(--red-color);
+  padding: 5px;
+  top: -15px;
+  right: -13px;
 }
