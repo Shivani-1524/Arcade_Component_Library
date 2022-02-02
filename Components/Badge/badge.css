@@ -1,0 +1,69 @@
+.badge {
+  border-radius: 50%;
+  background-color: var(--green-color);
+  position: absolute;
+}
+
+.avatar.lg i {
+  width: 2rem;
+  height: 2rem;
+}
+.avatar.md i {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.avatar.rg i {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+.avatar.sm i {
+  width: 10px;
+  height: 10px;
+}
+
+.badge-left {
+  left: 0;
+  bottom: 5px;
+}
+.badge-right {
+  right: 0;
+  bottom: 0px;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.badge-grey {
+  background-color: var(--grey);
+}
+
+.icon-badge {
+  background-color: var(--primary-color);
+  width: 35px;
+  height: 30px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-badge i {
+  font-size: 17px;
+  color: var(--orange-color);
+}
+
+.text-badge {
+  width: fit-content;
+  padding: 4px 7px;
+  border-radius: 3px;
+}
+
+.text-badge.primary {
+  color: var(--neon);
+  background-color: var(--primary-color);
+}
+.text-badge.secondary {
+  color: var(--prmary-color);
+  background-color: var(--orange-color);
+}
