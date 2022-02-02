@@ -39,7 +39,7 @@
   height: 3px;
   background: var(--violet-color);
 } */
-.sidenav-item.text {
+.sidenav-item.sidenav-txt {
   text-decoration: none;
   font-size: 1.35rem;
   display: block;
@@ -49,7 +49,7 @@
   position: relative;
   width: fit-content;
 }
-.sidenav-item.text::after {
+.sidenav-item.sidenav-txt::after {
   content: "";
   position: absolute;
   left: 0;
@@ -62,11 +62,11 @@
   transition: transform 250ms ease-in;
 }
 
-.sidenav-item.text:hover {
+.sidenav-item.sidenav-txt:hover {
   cursor: pointer;
 }
 
-.sidenav-item.text:hover::after {
+.sidenav-item.sidenav-txt:hover::after {
   transform: scaleX(1);
   transform-origin: left;
 }
