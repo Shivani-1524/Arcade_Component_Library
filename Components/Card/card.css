@@ -5,7 +5,7 @@
 .card {
   padding: 10px;
   height: fit-content;
-  background-color: var(--yellow-color-light);
+  background-color: var(--violet-color-light);
   border-radius: 7px;
 }
 
@@ -17,14 +17,21 @@
 }
 
 .ver-card {
-  width: 150px;
+  width: 200px;
+  min-width: fit-content;
+  height: fit-content;
+  display: grid;
+  grid-template-rows: 200px auto;
+}
+.ver-lg-card {
+  width: 300px;
   min-width: fit-content;
   height: fit-content;
   display: grid;
   grid-template-rows: 200px auto;
 }
 
-.var-card .img-container {
+.ver-card .img-container {
   height: 100%;
   width: 100%;
 }
@@ -80,4 +87,21 @@
 .card-btn-row {
   margin-top: 0px;
   width: fit-content;
+}
+
+.neon-bg {
+  width: fit-content;
+  height: fit-content;
+}
+
+.ver-card:hover {
+  cursor: pointer;
+  transform: translate(10px, -10px);
+  transition: 0.02ms ease-in;
+}
+.neon-bg:hover {
+  background-color: var(--orange-color);
+}
+
+.overlay {
 }
