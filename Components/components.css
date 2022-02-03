@@ -5,6 +5,7 @@
 @import "./Navbar/navbar.css";
 @import "./Button/button.css";
 @import "./Alert/alert.css";
+@import "./Card/card.css";
 @import "./FloatingButton/floatingbtn.css";
 
 html {
@@ -103,6 +104,9 @@ p.rg-p {
 p.sm-p {
   font-size: 1.2rem;
 }
+p.xsm-p {
+  font-size: 13px;
+}
 
 .grey-txt {
   color: var(--dark-grey);
@@ -142,6 +146,12 @@ p.sm-p {
 .flex-row {
   display: flex;
   align-items: center;
+  gap: 20px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
