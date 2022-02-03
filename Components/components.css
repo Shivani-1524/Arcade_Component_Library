@@ -43,9 +43,9 @@ body {
   --grey: #989898;
   --light-grey: #d3d3d3;
   --dark-grey: #484848;
-  -neon: #bbff8d;
-  --hot-pink: #f31d69;
-  --creamy: #e8e7e0;
+  --neon-color: #bbff8d;
+  --hot-pink-color: #f31d69;
+  --creamy-color: #e8e7e0;
 
   font-size: 13px;
   /* --accent-color-light: #ecf9c3;
@@ -74,7 +74,12 @@ button {
 .sm-title {
   font-size: 1.2rem;
   font-family: "Inter", sans-serif;
-  font-weight: 600;
+  font-weight: 800;
+}
+.xsm-title {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
 }
 
 .rg-booky-title {
@@ -82,16 +87,12 @@ button {
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
 }
+
 .md-booky-title {
   font-size: 2.5rem;
   font-family: "Libre Baskerville", serif;
 }
 
-.md-booky-title.bold {
-  font-size: 2.5rem;
-  font-weight: 700;
-  font-family: "Libre Baskerville", serif;
-}
 .sm-booky-title {
   font-size: 1.2rem;
   font-family: "Libre Baskerville", serif;
@@ -108,24 +109,41 @@ p.sm-p {
   color: var(--dark-grey);
 }
 
+.bold {
+  font-weight: 700;
+}
+
 /* utilities */
 .mg-t-50 {
-  margin-top: 50px !important;
+  margin-top: 50px;
 }
 .mg-t-40 {
-  margin-top: 40px !important;
+  margin-top: 40px;
 }
 .mg-t-30 {
-  margin-top: 30px !important;
+  margin-top: 30px;
 }
 .mg-t-20 {
-  margin-top: 20px !important;
+  margin-top: 20px;
 }
 .mg-t-15 {
-  margin-top: 15px !important;
+  margin-top: 15px;
 }
 .mg-t-10 {
-  margin-top: 10px !important;
+  margin-top: 10px;
+}
+
+/* layout */
+.center-block {
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .code-example {

@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 6px 10px 0 rgba(131, 130, 130, 0.822);
+  box-shadow: 0 6px 10px 0 #838282d2;
   transition: all 0.1s ease-in-out;
 }
 
@@ -22,15 +22,15 @@
   color: var(--black);
 }
 
-.floating-btn.b-r {
+.floating-btn.bottom-right {
   position: fixed;
   right: 0px;
   bottom: 0px;
 }
 
 /* being used */
-.floating-btn.b-r.custom {
+.floating-btn.bottom-right.custom {
   position: fixed;
-  right: 60px;
+  right: 40px;
   bottom: 25px;
 }
