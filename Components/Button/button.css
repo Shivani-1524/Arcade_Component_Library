@@ -16,8 +16,7 @@
 }
 .btn {
   width: fit-content;
-  min-height: 3.1rem;
-  height: fit-content;
+  height: 3.1rem;
   border: none;
   padding: 0.6rem;
   border-radius: 0.4rem;
@@ -51,8 +50,8 @@
   color: var(--red-color);
 }
 .icon-btn.primary-icon {
-  width: 40px;
-  height: 40px;
+  width: 33px;
+  height: 33px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -86,14 +85,15 @@
 }
 
 .primary-outlined-btn {
-  border: 3px solid var(--violet-color);
+  box-sizing: border-box;
+  border: 2px solid var(--violet-color);
 }
 .primary-outlined-btn:hover {
   background-color: var(--violet-color);
   color: var(--white);
 }
 .secondary-outlined-btn {
-  border: 3px solid var(--orange-color);
+  border: 2px solid var(--orange-color);
 }
 .secondary-outlined-btn:hover {
   background-color: var(--orange-color);
@@ -101,21 +101,21 @@
 }
 
 .success-outlined-btn {
-  border: 3px solid var(--green-color);
+  border: 2px solid var(--green-color);
 }
 .success-outlined-btn:hover {
   background-color: var(--green-color);
   color: var(--white);
 }
 .warning-outlined-btn {
-  border: 3px solid var(--yellow-color);
+  border: 2px solid var(--yellow-color);
 }
 .warning-outlined-btn:hover {
   background-color: var(--yellow-color);
 }
 
 .danger-outlined-btn {
-  border: 3px solid var(--red-color);
+  border: 2px solid var(--red-color);
 }
 .danger-outlined-btn:hover {
   background-color: var(--red-color);
