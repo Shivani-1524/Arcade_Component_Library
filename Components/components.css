@@ -31,7 +31,6 @@ body {
 
 :root {
   --primary-color: #141414;
-  /* --secondary-color: #577399; */
   --violet-color: #8f4bfd;
   --orange-color: #f4550b;
   --violet-color-light: #dbd1f5;
@@ -48,8 +47,6 @@ body {
   --creamy-color: #e8e7e0;
 
   font-size: 13px;
-  /* --accent-color-light: #ecf9c3;
-  --accent-color: #cdff1a; */
 }
 
 p,
