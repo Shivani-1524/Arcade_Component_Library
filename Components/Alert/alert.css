@@ -22,49 +22,50 @@
   font-weight: 500;
 }
 
-.alert .sym {
+.alert i {
   margin-right: 15px;
+  font-size: 1.3rem;
 }
 
-.alert.danger-alert {
+.danger-alert {
   border-color: var(--red-color);
 }
-.alert.danger-alert i.sym {
+.danger-alert i {
   color: var(--red-color);
 }
 
-.alert.success-alert {
+.success-alert {
   border-color: var(--green-color);
 }
-.alert.success-alert i.sym {
+.success-alert i {
   color: var(--green-color);
 }
 
-.alert.warning-alert {
-  border-color: var(--yellow-color-light);
+.warning-alert {
+  border-color: var(--yellow-color);
 }
-.alert.warning-alert i.sym {
+.warning-alert i {
   color: var(--yellow-color);
 }
 
-.alert.secondary-alert {
+.secondary-alert {
   border-color: var(--violet-color);
 }
-.alert.secondary-alert i.sym {
+.secondary-alert i {
   color: var(--red-color);
 }
 
-.alert.signature-alert {
+.signature-alert {
   border-color: var(--orange-color);
   background-color: var(--yellow-color-light);
 }
-.alert.signature-alert i.sym {
+.signature-alert i {
   color: var(--red-color);
 }
 
-.alert.primary-alert {
+.primary-alert {
   border-color: var(--black-color);
 }
-.alert.primary-alert i.sym {
+.primary-alert i {
   color: var(--red-color);
 }
