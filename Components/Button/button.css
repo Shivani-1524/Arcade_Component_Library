@@ -23,26 +23,25 @@
   background-color: transparent;
   font-size: 1.25rem;
   font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .btn:hover {
   cursor: pointer;
 }
 
-.btn.solid:hover,
-.btn.icon:hover {
+.solid:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
 }
-.btn.icon-left,
-.btn.icon-right {
+
+.icon-left,
+.icon-right {
   padding: 0.6rem 1.2rem;
 }
-.btn.icon-left i {
-  padding-right: 5px;
-}
-.btn.icon-right i {
-  padding-left: 5px;
-}
+
 .icon-btn {
   width: 2.5rem;
   height: 2.5rem;
@@ -51,16 +50,15 @@
 .icon-btn:hover {
   background-color: var(--yellow-color-light);
 }
-.danger-icon {
-  color: var(--red-color);
-}
-
 .primary-icon {
   background-color: var(--light-grey);
   color: var(--violet-color);
 }
 .primary-icon:hover {
   background-color: var(--violet-color-light);
+}
+.danger-icon {
+  color: var(--red-color);
 }
 
 .primary-btn {
@@ -158,7 +156,7 @@
   width: 18px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: var(--white);
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 50%;
