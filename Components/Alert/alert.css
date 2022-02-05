@@ -1,7 +1,3 @@
-.alert-col {
-  width: 100%;
-}
-
 .alert {
   background-color: transparent;
   border: 3px solid var(--primary-color);

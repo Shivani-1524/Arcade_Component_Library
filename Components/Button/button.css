@@ -3,17 +3,7 @@
   display: flex;
   gap: 15px;
 }
-.btn-examples {
-  gap: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.btn-container {
-  display: block;
-  width: fit-content;
-  margin: auto;
-}
+
 .btn {
   width: fit-content;
   height: 3.1rem;

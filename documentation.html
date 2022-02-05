@@ -56,7 +56,8 @@
     <main class="container">
         <div class="docs-section">
             <div class="docs-container">
-                <div class="alert-container">
+
+                <div id="alerts">
                     <h1 class="md-title">Alerts</h1>
                     <p class="rg-p mg-t-10">
                         Alerts are used to attract the user's eye towards important information in accordance to
@@ -67,9 +68,9 @@
                         Alerts are available in 3 types - with icons, without icons and with an icon to dismiss it.
                         Examples of these are given below along with the relevant code.
                     </p>
-                    <div class="alert-section mg-t-30">
+                    <div class="mg-t-40">
                         <h2 class="rg-booky-title">Simple Alert Bar Without Icons</h2>
-                        <div class="alert-col flex-col mg-t-30">
+                        <div class="flex-col mg-t-30">
                             <div class="alert primary-alert">
                                 <p class="rg-p"> This is a primary alert </p>
                             </div>
@@ -78,139 +79,146 @@
                             </div>
                             <div class="alert signature-alert">
                                 <p class="rg-p"> This is a signature alert</p>
-                                <div id="buttons">
-                                    <h1 class="md-title">Buttons</h1>
-                                    <p class="rg-p mg-t-10">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deserunt id
-                                        ipsam doloremque
-                                        sapiente voluptates facere necessitatibus ex debitis incidunt a, tempore, quas
-                                        iste eveniet
-                                        facilis minus. Perferendis, fugit. Aliquid?
-
-                                    </p>
-
-                                    <div class="mg-t-30">
-                                        <h2 class="rg-booky-title">Solid Buttons</h2>
-                                        <div class="mg-t-30 btn-container">
-                                            <div class="btn-examples">
-                                                <button class="btn primary-btn solid">Primary Button</button>
-                                                <button class="btn secondary-btn solid">Secondary Button</button>
-                                                <button class="btn success-btn solid">Success Button</button>
-                                                <button class="btn warning-btn solid">Warning Button</button>
-                                                <button class="btn danger-btn solid">Error Button</button>
-                                            </div>
-                                        </div>
-                                        <div class="code-example">
-                                            <iframe class="code-snip"
-                                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=one-dark&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522alert%2520primary-alert%2522%253EThis%2520is%2520a%2520primary%2520alert%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520secondary-alert%2522%253EThis%2520is%2520a%2520secondary%2520alert%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520signature-alert%2522%253EThis%2520is%2520a%2520signature%2520alert%253C%252Fdiv%253E"
-                                                style="width: 748px; height: 136px; border:0; transform: scale(1); overflow:hidden;"
-                                                sandbox="allow-scripts allow-same-origin">
-                                            </iframe>
-                                        </div>
-                                    </div>
-                                    <div class="alert-section mg-t-40">
-                                        <h2 class="rg-booky-title">Alert With Icons</h2>
-                                        <div class="alert-col flex-col mg-t-30">
-                                            <div class="alert success-alert">
-                                                <i class="fas fa-check-circle"></i>
-                                                <p class="rg-p"> This is a success alert</p>
-                                            </div>
-                                            <div class="alert warning-alert">
-                                                <i class="fas fa-exclamation-circle"></i>
-                                                <p class="rg-p">This is a warning alert</p>
-                                            </div>
-                                            <div class="alert danger-alert">
-                                                <i class="fas fa-exclamation-triangle"></i>
-                                                <p class="rg-p">This is a danger alert</p>
-                                            </div>
-                                        </div>
-                                        <div class="code-example">
-                                            <iframe class="code-snip" loading="lazy"
-                                                src="https://carbon.now.sh/embed?bg=rgba%28214%2C189%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=141%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522alert%2520success-alert%2522%253E%250A%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2509%253Cp%253E%2520This%2520is%2520a%2520success%2520alert%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%2520%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning-alert%2522%253E%250A%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2509%253Cp%253EThis%2520is%2520a%2520warning%2520alert%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520danger-alert%2522%253E%250A%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2509%253Cp%253EThis%2520is%2520a%2520danger%2520alert%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E"
-                                                <div class="mg-t-40">
-                                                <h2 class="rg-booky-title">Outlined Buttons</h2>
-                                                <div class="mg-t-30 btn-container">
-                                                    <div class="btn-examples">
-                                                        <button class="btn primary-outlined-btn">Primary Button</button>
-                                                        <button class="btn secondary-outlined-btn">Secondary
-                                                            Button</button>
-                                                        <button class="btn success-outlined-btn">Success Button</button>
-                                                        <button class="btn warning-outlined-btn">Warning Button</button>
-                                                        <button class="btn danger-outlined-btn">Error Button</button>
-                                                    </div>
-                                                </div>
-                                                <div class="code-example">
-                                                    <iframe class="code-snip"
-                                                        src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary-outlined-btn%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520success-outlined-btn%2522%253ESuccess%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-outlined-btn%2522%253EWarning%2520Button%253C%252Fbutton%253E%2520%250A%253Cbutton%2520class%253D%2522btn%2520danger-outlined-btn%2522%253EError%2520Button%253C%252Fbutton%253E"
-                                                        style="width: 775px; height: 204px; border:0; transform: scale(1); overflow:hidden;"
-                                                        sandbox="allow-scripts allow-same-origin">
-                                                    </iframe>
-                                                </div>
-                                        </div>
-                                        <div class="mg-t-40">
-                                            <h2 class="rg-booky-title">Floating Action button and Toggle Buttons</h2>
-                                            <div class="mg-t-30 btn-container">
-                                                <div class="btn-examples">
-                                                    <button class="floating-btn">
-                                                        <i class="fas fa-plus"></i>
-                                                    </button>
-                                                    <label class="switch">
-                                                        <input type="checkbox">
-                                                        <span class="slider round"></span>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="code-example">
-                                                <iframe class="code-snip"
-                                                    src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522floating-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Clabel%2520class%253D%2522switch%2522%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522slider%2520round%2522%253E%253C%252Fspan%253E%250A%253C%252Flabel%253E"
-                                                    style="width: 445px; height: 239px; border:0; transform: scale(1); overflow:hidden;"
-                                                    sandbox="allow-scripts allow-same-origin">
-                                                </iframe>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mg-t-40">
-                                    <h2 class="rg-booky-title">Buttons with Icons and Icon Buttons</h2>
-                                    <div class="mg-t-30 btn-container">
-                                        <div class="btn-examples">
-                                            <button class="btn primary-btn solid icon-left">
-                                                <i class="fas fa-shopping-cart"></i>
-                                                Add to Bag
-                                            </button>
-                                            <button class="btn warning-outlined-btn icon-right">
-                                                Add to Favourites
-                                                <i class="far fa-star"></i>
-                                            </button>
-                                            <button class="btn icon-btn danger-icon">
-                                                <i class="fas fa-trash-alt"></i>
-                                            </button>
-                                            <button class="btn icon-btn">
-                                                <i class="fas fa-shopping-cart"></i>
-                                            </button>
-                                            <button class="btn icon-btn primary-icon">
-                                                <i class="fas fa-bookmark"></i>
-                                            </button>
-
-                                        </div>
-                                    </div>
-                                    <div class="code-example">
-                                        <iframe class="code-snip"
-                                            src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520solid%2520icon-left%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2509Add%2520to%2520Bag%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary-outlined-btn%2520icon-right%2522%253E%250A%2509Add%2520To%2520Library%250A%2509%253Ci%2520class%253D%2522far%2520fa-bookmark%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520icon-btn%2520danger-icon%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520icon-btn%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520icon-btn%2520primary-icon%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-bookmark%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
-                                            style="width: 607px; height: 499px; border:0; transform: scale(1); overflow:hidden;"
-                                            sandbox="allow-scripts allow-same-origin">
-                                        </iframe>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- for example -->
-                            <!-- <div class="compcontainer"></div> -->
-
-
-                            <div class="floating-btn bottom-right custom">
-                                <i class="fas fa-arrow-up"></i>
                             </div>
                         </div>
+                        <div class="code-example">
+                            <iframe class="code-snip" loading="lazy"
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520primary-alert%2522%250A%2520%2520%2509%253Cp%2520class%253D%2522rg-p%2522%253E%2520This%2520is%2520a%2520primary%2520alert%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520secondary-alert%2522%253E%250A%2520%2520%2509%253Cp%2520class%253D%2522rg-p%2522%253E%2520This%2520is%2520a%2520secondary%2520alert%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520signature-alert%2522%253E%250A%2520%2520%2509%253Cp%2520class%253D%2522rg-p%2522%253E%2520This%2520is%2520a%2520signature%2520alert%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="rg-booky-title">Alert With Icons</h2>
+                        <div class="flex-col mg-t-30">
+                            <div class="alert success-alert">
+                                <i class="fas fa-check-circle"></i>
+                                <p class="rg-p"> This is a success alert</p>
+                            </div>
+                            <div class="alert warning-alert">
+                                <i class="fas fa-exclamation-circle"></i>
+                                <p class="rg-p">This is a warning alert</p>
+                            </div>
+                            <div class="alert danger-alert">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <p class="rg-p">This is a danger alert</p>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe class="code-snip"
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary-outlined-btn%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520success-outlined-btn%2522%253ESuccess%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-outlined-btn%2522%253EWarning%2520Button%253C%252Fbutton%253E%2520%250A%253Cbutton%2520class%253D%2522btn%2520danger-outlined-btn%2522%253EError%2520Button%253C%252Fbutton%253E"
+                                loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="buttons">
+                    <h1 class="md-title">Buttons</h1>
+                    <p class="rg-p mg-t-10">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deserunt
+                        id
+                        ipsam doloremque
+                        sapiente voluptates facere necessitatibus ex debitis incidunt a, tempore,
+                        quas
+                        iste eveniet
+                        facilis minus. Perferendis, fugit. Aliquid?
+                    </p>
+                    <div class="mg-t-40">
+                        <h2 class="rg-booky-title">Solid Buttons</h2>
+                        <div class="center-block">
+                            <div class="flex-row mg-t-30">
+                                <button class="btn primary-btn solid">Primary Button</button>
+                                <button class="btn secondary-btn solid">Secondary Button</button>
+                                <button class="btn success-btn solid">Success Button</button>
+                                <button class="btn warning-btn solid">Warning Button</button>
+                                <button class="btn danger-btn solid">Error Button</button>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe class="code-snip"
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=one-dark&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522alert%2520primary-alert%2522%253EThis%2520is%2520a%2520primary%2520alert%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520secondary-alert%2522%253EThis%2520is%2520a%2520secondary%2520alert%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520signature-alert%2522%253EThis%2520is%2520a%2520signature%2520alert%253C%252Fdiv%253E"
+                                loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="rg-booky-title">Outlined Buttons</h2>
+                        <div class="center-block">
+                            <div class="flex-row mg-t-30">
+                                <button class="btn primary-outlined-btn">Primary Button</button>
+                                <button class="btn secondary-outlined-btn">SecondaryButton</button>
+                                <button class="btn success-outlined-btn">Success Button</button>
+                                <button class="btn warning-outlined-btn">Warning Button</button>
+                                <button class="btn danger-outlined-btn">Error Button</button>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe class="code-snip"
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary-outlined-btn%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520success-outlined-btn%2522%253ESuccess%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-outlined-btn%2522%253EWarning%2520Button%253C%252Fbutton%253E%2520%250A%253Cbutton%2520class%253D%2522btn%2520danger-outlined-btn%2522%253EError%2520Button%253C%252Fbutton%253E"
+                                loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="rg-booky-title">Floating Action button and Toggle Buttons</h2>
+                        <div class="center-block">
+                            <div class="flex-row mg-t-30">
+                                <button class="floating-btn">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe class="code-snip"
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522floating-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Clabel%2520class%253D%2522switch%2522%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522slider%2520round%2522%253E%253C%252Fspan%253E%250A%253C%252Flabel%253E"
+                                loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="rg-booky-title">Buttons with Icons and Icon Buttons</h2>
+                        <div class="center-block">
+                            <div class="flex-row mg-t-30">
+                                <button class="btn primary-btn solid icon-left">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Bag
+                                </button>
+                                <button class="btn warning-outlined-btn icon-right">
+                                    Add to Favourites
+                                    <i class="far fa-star"></i>
+                                </button>
+                                <button class="btn icon-btn danger-icon">
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+                                <button class="btn icon-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                                <button class="btn icon-btn primary-icon">
+                                    <i class="fas fa-bookmark"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe class="code-snip"
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520solid%2520icon-left%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2509Add%2520to%2520Bag%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary-outlined-btn%2520icon-right%2522%253E%250A%2509Add%2520To%2520Library%250A%2509%253Ci%2520class%253D%2522far%2520fa-bookmark%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520icon-btn%2520danger-icon%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520icon-btn%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520icon-btn%2520primary-icon%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-bookmark%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+                                loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="floating-btn bottom-right custom">
+                <i class="fas fa-arrow-up"></i>
+            </div>
+        </div>
     </main>
 </body>
 
