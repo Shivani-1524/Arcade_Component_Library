@@ -146,12 +146,14 @@ p.sm-p {
 
 .flex-row {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 20px;
 }
 .flex-col {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   gap: 20px;
 }
@@ -169,7 +171,7 @@ p.sm-p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: fit-content;
+  height: max-content;
   overflow: scroll;
   background-color: var(--violet-color-light);
 }

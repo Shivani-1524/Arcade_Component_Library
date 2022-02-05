@@ -35,7 +35,9 @@
 .icon-btn {
   width: 2.5rem;
   height: 2.5rem;
+  padding: 1.5rem;
   border-radius: 50%;
+  font-size: 1.4rem;
 }
 .icon-btn:hover {
   background-color: var(--yellow-color-light);

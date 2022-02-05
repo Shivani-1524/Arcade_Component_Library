@@ -16,6 +16,7 @@ body {
 .docs-section {
   background-color: var(--white);
   grid-column-start: 2;
+  grid-column-end: 3;
   border: 2px solid var(--violet-color);
   border-top-left-radius: 80px;
 }
@@ -25,4 +26,5 @@ body {
   flex-direction: column;
   gap: 60px;
   margin: 40px 50px;
+  padding-bottom: 60px;
 }

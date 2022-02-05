@@ -71,8 +71,22 @@
 .num-badge {
   text-align: center;
   background-color: var(--hot-pink-color);
-  width: 2rem;
-  height: 2rem;
+  width: fit-content;
+  height: fit-content;
+  min-width: 1.7rem;
+  min-height: 1.7rem;
+  padding: 5px;
   top: -15px;
   right: -13px;
+}
+.num-sm-badge {
+  text-align: center;
+  background-color: var(--hot-pink-color);
+  width: fit-content;
+  height: fit-content;
+  min-width: 1.7rem;
+  min-height: 1.7rem;
+  padding: 5px;
+  top: -5px;
+  right: -5px;
 }
