@@ -46,6 +46,9 @@ body {
   --hot-pink-color: #f31d69;
   --creamy-color: #e8e7e0;
 
+  --box-shadow-dark: #666;
+  --box-shadow-light: #838282d2;
+
   font-size: 13px;
 }
 

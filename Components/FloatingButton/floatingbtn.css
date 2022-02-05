@@ -7,18 +7,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 6px 10px 0 #838282d2;
+  box-shadow: 0 6px 10px 0 var(--box-shadow-light);
   transition: all 0.1s ease-in-out;
 }
 
 .floating-btn:hover {
   cursor: pointer;
-  box-shadow: 0 6px 14px 0 #666;
+  box-shadow: 0 6px 14px 0 var(--box-shadow-dark);
   transform: scale(1.05);
 }
 
 .floating-btn i {
-  font-size: 20px;
+  font-size: 1.5rem;
   color: var(--black);
 }
 
@@ -31,6 +31,6 @@
 /* being used */
 .floating-btn.bottom-right.custom {
   position: fixed;
-  right: 40px;
-  bottom: 25px;
+  right: 3rem;
+  bottom: 1.9rem;
 }
