@@ -5,6 +5,8 @@
 @import "./Navbar/navbar.css";
 @import "./Button/button.css";
 @import "./Alert/alert.css";
+@import "./Avatar/avatar.css";
+@import "./Badge/badge.css";
 @import "./FloatingButton/floatingbtn.css";
 
 html {
