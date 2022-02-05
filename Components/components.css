@@ -153,6 +153,11 @@ p.sm-p {
   align-items: center;
   gap: 20px;
 }
+.center-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .code-example {
   border-radius: 10px;
