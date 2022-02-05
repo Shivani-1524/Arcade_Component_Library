@@ -3,33 +3,175 @@
   display: flex;
   gap: 15px;
 }
-.btn {
-  min-width: 10rem;
+.btn-examples {
+  gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.btn-container {
+  display: block;
   width: fit-content;
-  min-height: 3.1rem;
-  height: fit-content;
+  margin: auto;
+}
+.btn {
+  width: fit-content;
+  height: 3.1rem;
   border: none;
   padding: 0.6rem;
   border-radius: 0.4rem;
   background-color: transparent;
   font-size: 1.25rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .btn:hover {
   cursor: pointer;
 }
 
+.solid:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
+}
+
+.icon-left,
+.icon-right {
+  padding: 0.6rem 1.2rem;
+}
+
+.icon-btn {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+.icon-btn:hover {
+  background-color: var(--yellow-color-light);
+}
+.primary-icon {
+  background-color: var(--light-grey);
+  color: var(--violet-color);
+}
+.primary-icon:hover {
+  background-color: var(--violet-color-light);
+}
+.danger-icon {
+  color: var(--red-color);
+}
+
 .primary-btn {
   background-color: var(--violet-color);
   color: var(--white);
 }
-.primary-outlined-btn {
-  border: 3px solid var(--violet-color);
-}
-.orange-btn {
+
+.secondary-btn {
   background-color: var(--orange-color);
   color: var(--white);
 }
-.orange-outlined-btn {
-  border: 3px solid var(--orange-color);
+
+.success-btn {
+  background-color: var(--green-color);
+  color: var(--white);
+}
+.warning-btn {
+  background-color: var(--yellow-color);
+  color: var(--black);
+  font-weight: 700;
+}
+.danger-btn {
+  background-color: var(--red-color);
+  color: var(--white);
+}
+
+.primary-outlined-btn {
+  box-sizing: border-box;
+  border: 2px solid var(--violet-color);
+}
+.primary-outlined-btn:hover {
+  background-color: var(--violet-color);
+  color: var(--white);
+}
+.secondary-outlined-btn {
+  border: 2px solid var(--orange-color);
+}
+.secondary-outlined-btn:hover {
+  background-color: var(--orange-color);
+  color: var(--white);
+}
+
+.success-outlined-btn {
+  border: 2px solid var(--green-color);
+}
+.success-outlined-btn:hover {
+  background-color: var(--green-color);
+  color: var(--white);
+}
+.warning-outlined-btn {
+  border: 2px solid var(--yellow-color);
+}
+.warning-outlined-btn:hover {
+  background-color: var(--yellow-color);
+}
+
+.danger-outlined-btn {
+  border: 2px solid var(--red-color);
+}
+.danger-outlined-btn:hover {
+  background-color: var(--red-color);
+  color: var(--white);
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 3.4rem;
+  height: 2rem;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--light-grey);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 2.6rem;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 4px;
+  background-color: var(--white);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: var(--green-color);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px var(--green-color);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
 }

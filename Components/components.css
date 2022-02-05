@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Open+Sans:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Libre+Baskerville:wght@400;700&family=Open+Sans:wght@300;400;500;600&display=swap");
 
 @import "./SideNav/sidenav.css";
 @import "./Footer/footer.css";
@@ -31,7 +31,6 @@ body {
 
 :root {
   --primary-color: #141414;
-  /* --secondary-color: #577399; */
   --violet-color: #8f4bfd;
   --orange-color: #f4550b;
   --violet-color-light: #dbd1f5;
@@ -49,16 +48,18 @@ body {
   --hot-pink-color: #f31d69;
   --creamy-color: #e8e7e0;
 
+  --box-shadow-dark: #666;
+  --box-shadow-light: #838282d2;
+
   font-size: 13px;
-  /* --accent-color-light: #ecf9c3;
-  --accent-color: #cdff1a; */
 }
 
 p,
 a,
 h1,
 h2,
-h3 {
+h3,
+button {
   font-family: "Open Sans", sans-serif;
 }
 
