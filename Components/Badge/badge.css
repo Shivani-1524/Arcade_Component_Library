@@ -69,8 +69,10 @@
 }
 
 .num-badge {
-  background-color: var(--red-color);
-  padding: 5px;
+  text-align: center;
+  background-color: var(--hot-pink-color);
+  width: 2rem;
+  height: 2rem;
   top: -15px;
   right: -13px;
 }

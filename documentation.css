@@ -1,9 +1,12 @@
 html,
 body {
+  margin-top: 38px;
   background-color: var(--primary-color);
 }
 
 .container {
+  position: fixed;
+  overflow: scroll;
   display: grid;
   height: 100%;
   grid-template-columns: 230px 1fr;
@@ -14,11 +17,7 @@ body {
   background-color: var(--white);
   grid-column-start: 2;
   border: 2px solid var(--violet-color);
-  margin-top: 80px;
   border-top-left-radius: 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .docs-container {
