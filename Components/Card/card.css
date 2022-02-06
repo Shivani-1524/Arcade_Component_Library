@@ -3,36 +3,58 @@
 }
 
 .card {
-  padding: 10px;
-  height: fit-content;
+  cursor: pointer;
+  position: relative;
+  height: max-content;
   background-color: var(--violet-color-light);
   border-radius: 7px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .hor-card {
   width: 100%;
   display: grid;
   grid-template-columns: 200px 1fr;
+  grid-template-rows: auto;
   align-items: center;
+}
+
+.flex-card-wrapper {
+  width: 200px;
+  height: 300px;
+}
+
+.flex-card {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.flex-card .img-container {
+  overflow: hidden;
+  width: 100%;
 }
 
 .ver-card {
   width: 200px;
-  min-width: fit-content;
-  height: fit-content;
+  min-width: max-content;
+  height: max-content;
   display: grid;
-  grid-template-rows: 200px auto;
+  grid-template-rows: 250px auto auto;
 }
 .ver-lg-card {
-  width: 300px;
+  width: 350px;
   min-width: fit-content;
   height: fit-content;
   display: grid;
   grid-template-rows: 200px auto;
 }
 
+.img-container {
+  border-radius: inherit;
+}
+
 .ver-card .img-container {
-  height: 100%;
   width: 100%;
 }
 
@@ -42,23 +64,31 @@
   margin-right: 30px;
 }
 
-.text-card {
-  height: 90%;
+.hor-card .text-card {
+  height: auto;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: flex-start;
+}
+
+.ver-card .text-card,
+.ver-lg-card .text-card,
+.hor-card .text-card {
+  padding: 10px;
 }
 
 .img-container img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  border-radius: inherit;
 }
 
 .money {
   display: flex;
+  gap: 5px;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .review-row {
@@ -89,19 +119,32 @@
   width: fit-content;
 }
 
-.neon-bg {
-  width: fit-content;
-  height: fit-content;
-}
-
-.ver-card:hover {
-  cursor: pointer;
-  transform: translate(10px, -10px);
-  transition: 0.02ms ease-in;
-}
-.neon-bg:hover {
-  background-color: var(--orange-color);
-}
-
 .overlay {
+  position: relative;
+}
+.overlay-layer {
+  position: absolute;
+  border-radius: inherit;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.589);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+}
+
+.close-icon {
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin: 6px;
+  font-size: 1.5rem;
+  color: var(--dark-grey);
+}
+
+.card .close-icon:hover {
+  cursor: pointer;
 }
