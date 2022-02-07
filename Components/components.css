@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Libre+Baskerville:wght@400;700&family=Open+Sans:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Libre+Baskerville:wght@400;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
 @import "./SideNav/sidenav.css";
 @import "./Footer/footer.css";
@@ -8,6 +8,8 @@
 @import "./Avatar/avatar.css";
 @import "./Badge/badge.css";
 @import "./FloatingButton/floatingbtn.css";
+@import "./Typography/typography.css";
+@import "./Lists/lists.css";
 
 html {
   overflow: scroll;
@@ -54,67 +56,6 @@ body {
   --box-shadow-light: #838282d2;
 
   font-size: 13px;
-}
-
-p,
-a,
-h1,
-h2,
-h3,
-button {
-  font-family: "Open Sans", sans-serif;
-}
-
-.md-title {
-  font-size: 3rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 800;
-}
-.rg-title {
-  font-size: 1.5rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-}
-.sm-title {
-  font-size: 1.2rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 800;
-}
-.xsm-title {
-  font-size: 12px;
-  font-family: "Inter", sans-serif;
-  font-weight: 800;
-}
-
-.rg-booky-title {
-  font-size: 1.5rem;
-  font-family: "Libre Baskerville", serif;
-  font-weight: 700;
-}
-
-.md-booky-title {
-  font-size: 2.5rem;
-  font-family: "Libre Baskerville", serif;
-}
-
-.sm-booky-title {
-  font-size: 1.4rem;
-  font-family: "Libre Baskerville", serif;
-}
-
-p.rg-p {
-  font-size: 1.4rem;
-}
-p.sm-p {
-  font-size: 1.2rem;
-}
-
-.grey-txt {
-  color: var(--dark-grey);
-}
-
-.bold {
-  font-weight: 700;
 }
 
 /* utilities */
