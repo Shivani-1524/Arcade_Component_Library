@@ -37,6 +37,8 @@
                 <a href="#cards" class="sidenav-item sidenav-txt">Cards</a>
                 <a href="#image" class="sidenav-item sidenav-txt">Image</a>
                 <a href="#input" class="sidenav-item sidenav-txt">Input</a>
+                <a href="#modal" class="sidenav-item sidenav-txt">Modal</a>
+                <a href="#rating" class="sidenav-item sidenav-txt">Rating</a>
 
             </div>
         </div>
@@ -131,9 +133,9 @@
                             </div>
                         </div>
                         <div class="code-example">
-                            <iframe class="code-snip"
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=one-dark&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522alert%2520primary-alert%2522%253EThis%2520is%2520a%2520primary%2520alert%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520secondary-alert%2522%253EThis%2520is%2520a%2520secondary%2520alert%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520signature-alert%2522%253EThis%2520is%2520a%2520signature%2520alert%253C%252Fdiv%253E"
-                                loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520solid%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary-btn%2520solid%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520success-btn%2520solid%2522%253ESuccess%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-btn%2520solid%2522%253EWarning%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520danger-btn%2520solid%2522%253EError%2520Button%253C%252Fbutton%253E"
+                                loading="lazy" class="code-snip" sandbox="allow-scripts allow-same-origin">
                             </iframe>
                         </div>
                     </div>
@@ -361,12 +363,98 @@
                 </div>
 
 
+                <div id="modal">
+                    <h1 class="md-title">Modal</h1>
+                    <p class="rg-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat similique provident
+                        asperiores possimus consequatur est quas, autem accusantium deleniti. Perferendis, repellat
+                        possimus. Illum voluptates voluptatem vitae ut eaque unde nostrum?</p>
+                    <div class="mg-t-40">
+                        <h2 class="rg-booky-title">Modal Example</h2>
+                        <div class="center-block">
+                            <button id="modal-btn-demo" class="btn primary-btn solid mg-t-30">
+                                Click Me for Demo
+                            </button>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-wrapper%2522%2520id%253D%2522modal-wrapper%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522rg-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Modal%2520Title%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2522%2520aria-hidden%253D%2522true%2522%2520id%253D%2522modal-btn-close%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-p%2520mg-t-20%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520...%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-btn-wrapper%2520mg-t-20%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520solid%2522%2520id%253D%2522modal-btn-ok%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Go%2520Ahead%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary-outlined-btn%2520modal-btn%2522%2520id%253D%2522modal-btn-cancel%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Cancel%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="rating">
+                    <h1 class="md-title">Rating</h1>
+                    <p class="rg-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat similique provident
+                        asperiores possimus consequatur est quas, autem accusantium deleniti. Perferendis, repellat
+                        possimus. Illum voluptates voluptatem vitae ut eaque unde nostrum?</p>
+                    <div class="mg-t-40">
+                        <h2 class="rg-booky-title">Rating Example</h2>
+                        <div class="center-block">
+                            <div class="rating-row mg-t-30">
+                                <i id="star-1" class="fas fa-star"></i>
+                                <i id="star-2" class="fas fa-star"></i>
+                                <i id="star-3" class="fas fa-star"></i>
+                                <i id="star-4" class="fas fa-star"></i>
+                                <i id="star-5" class="fas fa-star"></i>
+                                <p class="sm-p" id="rating-val">Rating: </p>
+                            </div>
+                        </div>
+                        <div class="center-block">
+                            <button id="rating-reset-btn" class="btn primary-btn solid mg-t-20">Reset Rating</button>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-row%2522%253E%250A%2520%2520%2520%2520%253Ci%2520id%253D%2522star-1%2522%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520id%253D%2522star-2%2522%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520id%253D%2522star-3%2522%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520id%253D%2522star-4%2522%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520id%253D%2522star-5%2522%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-p%2522%2520id%253D%2522rating-val%2522%253ERating%253A%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                                loading="lazy" class="code-snip" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
         </div>
         <div class="floating-btn bottom-right custom">
             <i class="fas fa-arrow-up"></i>
         </div>
+
+
+
     </main>
+
+    <!-- MODAL COMPONENT START -->
+    <div class="modal-wrapper" id="modal-wrapper">
+        <div class="modal-container">
+            <div class="modal-title">
+                <h4 class="rg-title">
+                    Modal Title
+                </h4>
+                <i class="fa fa-times" aria-hidden="true" id="modal-btn-close"></i>
+            </div>
+            <p class="sm-p mg-t-20">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eaque modi adipisci cumque vel,
+                ullam, cupiditate velit exercitationem ipsum fugiat quam eum
+            </p>
+            <div class="modal-btn-wrapper mg-t-20">
+                <button class="btn primary-btn solid" id="modal-btn-ok">
+                    Go Ahead
+                </button>
+                <button class="btn secondary-outlined-btn modal-btn" id="modal-btn-cancel">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- MODAL COMPONENT END -->
+
+
+    <script src="Components/Modal/modal.js"></script>
+    <script src="Components/Rating/rating.js"></script>
 </body>
 
 </html>

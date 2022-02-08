@@ -8,11 +8,14 @@
 @import "./Avatar/avatar.css";
 @import "./Badge/badge.css";
 @import "./FloatingButton/floatingbtn.css";
+@import "./Modal/modal.css";
+@import "./Rating/rating.css";
 
 html {
   overflow: scroll;
   overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
   width: 0; /* Remove scrollbar space */
   background: transparent; /* Optional: just make scrollbar invisible */
