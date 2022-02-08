@@ -7,14 +7,19 @@
   height: 100%;
   width: 230px;
   padding-top: 40px;
-  overflow-y: auto;
   position: fixed;
   background-color: var(--primary-color);
+}
+
+.sidenav-container {
+  overflow: scroll;
+  height: 90%;
 }
 
 .sidenav-section {
   display: flex;
   flex-direction: column;
+  overflow: scroll;
   gap: 10px;
 }
 
