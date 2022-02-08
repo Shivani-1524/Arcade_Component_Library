@@ -6,7 +6,7 @@
 li {
   font-size: 1.3rem;
 }
-.styled-list {
+.styled-list li {
   padding: 5px 0px;
 }
 
