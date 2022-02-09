@@ -8,6 +8,8 @@
 @import "./Avatar/avatar.css";
 @import "./Badge/badge.css";
 @import "./FloatingButton/floatingbtn.css";
+@import "./Slider/slider.css";
+@import "./Toast/toast.css";
 
 html {
   overflow: scroll;
@@ -142,6 +144,11 @@ p.sm-p {
   display: block;
   width: fit-content;
   margin: auto;
+}
+
+.row-center {
+  display: flex;
+  justify-content: center;
 }
 
 .flex-row {
