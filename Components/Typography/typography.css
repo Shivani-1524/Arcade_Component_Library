@@ -1,9 +1,9 @@
 .typ-ex-grid {
   display: grid;
   grid-template-columns: max-content min-content;
-  grid-template-rows: repeat(auto, 50px);
+  grid-template-rows: 50px;
   align-items: center;
-  grid-gap: 30px;
+  gap: 30px;
 }
 
 .tag {
