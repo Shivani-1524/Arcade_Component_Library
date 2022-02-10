@@ -84,13 +84,6 @@
   border-radius: inherit;
 }
 
-.money {
-  display: flex;
-  gap: 5px;
-  align-items: center;
-  font-size: 1.3rem;
-}
-
 .review-row {
   display: flex;
   gap: 7px;
