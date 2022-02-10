@@ -10,11 +10,14 @@
 @import "./Card/card.css";
 @import "./FloatingButton/floatingbtn.css";
 @import "./Grids/grids.css";
+@import "./Image/image.css";
+@import "./Input/input.css";
 
 html {
   overflow: scroll;
   overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
   width: 0; /* Remove scrollbar space */
   background: transparent; /* Optional: just make scrollbar invisible */
@@ -41,11 +44,13 @@ body {
   --yellow-color: #fab41c;
   --yellow-color-light: #fdddc2;
   --red-color: #ff5a5f;
+  --light-red-color: #fcdfdf;
   --green-color: #00a699;
+  --light-green-color: #00a69886;
   --white: #f7f7ff;
   --grey: #989898;
   --light-grey: #d3d3d3;
-  --extra-light-grey: #dbd8d8b0;
+  --extra-light-grey: #e7e3e3bd;
   --dark-grey: #484848;
   --neon-color: #bbff8d;
   --neon-green-color: #0ce51c;
