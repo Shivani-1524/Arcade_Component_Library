@@ -8,6 +8,7 @@
 @import "./Avatar/avatar.css";
 @import "./Badge/badge.css";
 @import "./FloatingButton/floatingbtn.css";
+@import "./Grids/grids.css";
 
 html {
   overflow: scroll;
@@ -181,6 +182,13 @@ p.sm-p {
   border: 0;
   transform: scale(1);
   overflow: hidden;
+}
+
+#dark-bg-icon {
+  color: var(--white);
+}
+#dark-bg-icon:hover {
+  background-color: transparent;
 }
 
 @media only screen and (max-width: 600px) {
