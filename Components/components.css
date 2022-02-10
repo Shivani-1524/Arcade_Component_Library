@@ -7,6 +7,7 @@
 @import "./Alert/alert.css";
 @import "./Avatar/avatar.css";
 @import "./Badge/badge.css";
+@import "./Card/card.css";
 @import "./FloatingButton/floatingbtn.css";
 @import "./Grids/grids.css";
 
@@ -109,6 +110,9 @@ p.rg-p {
 p.sm-p {
   font-size: 1.2rem;
 }
+p.xsm-p {
+  font-size: 13px;
+}
 
 .grey-txt {
   color: var(--dark-grey);
@@ -156,6 +160,13 @@ p.sm-p {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 .center-items {
