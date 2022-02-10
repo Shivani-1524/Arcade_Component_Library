@@ -12,6 +12,8 @@
 @import "./Grids/grids.css";
 @import "./Image/image.css";
 @import "./Input/input.css";
+@import "./Slider/slider.css";
+@import "./Toast/toast.css";
 
 html {
   overflow: scroll;
@@ -152,6 +154,11 @@ p.xsm-p {
   display: block;
   width: fit-content;
   margin: auto;
+}
+
+.row-center {
+  display: flex;
+  justify-content: center;
 }
 
 .flex-row {
