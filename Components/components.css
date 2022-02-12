@@ -16,6 +16,8 @@
 @import "./Toast/toast.css";
 @import "./Typography/typography.css";
 @import "./Lists/lists.css";
+@import "./Modal/modal.css";
+@import "./Rating/rating.css";
 
 html {
   overflow: scroll;

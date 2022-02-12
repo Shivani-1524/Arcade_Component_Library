@@ -1,0 +1,12 @@
+.rating-row {
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-row i {
+  font-size: 1.4rem;
+  color: var(--grey);
+  cursor: pointer;
+}
