@@ -38,7 +38,6 @@
                     <a href="#cards" class="sidenav-item sidenav-txt">Cards</a>
                     <a href="#image" class="sidenav-item sidenav-txt">Image</a>
                     <a href="#input" class="sidenav-item sidenav-txt">Input</a>
-                    <a href="#grid" class="sidenav-item sidenav-txt">Grid</a>
                     <a href="#navbar" class="sidenav-item sidenav-txt">NavBar</a>
                     <a href="#toast" class="sidenav-item sidenav-txt">Toast</a>
                     <a href="#slider" class="sidenav-item sidenav-txt">Slider</a>
@@ -50,7 +49,7 @@
                     <div>
                         <a href="#typography" class="sidenav-item sidenav-txt">Typography</a>
                         <a href="#colors" class="sidenav-item sidenav-txt">Colors</a>
-                        <!-- <a class="sidenav-item text"></a> -->
+                        <a href="#grid" class="sidenav-item sidenav-txt">Grid</a>
                     </div>
                 </div>
             </div>
@@ -62,7 +61,7 @@
             <div class="docs-container">
 
                 <!-- ALERTS-START -->
-                <div id="alerts" class="alerts-section">
+                <section id="alerts" class="alerts-section">
                     <h1 class="lg-title">Alerts</h1>
                     <p class="rg-p mg-t-10">
                         Alerts are used to attract the user's eye towards important information in accordance to
@@ -86,6 +85,12 @@
                                 <p class="rg-p"> This is a signature alert</p>
                             </div>
                         </div>
+                        <div class="code-example">
+                            <iframe class="code-snip"
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary-outlined-btn%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520success-outlined-btn%2522%253ESuccess%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-outlined-btn%2522%253EWarning%2520Button%253C%252Fbutton%253E%2520%250A%253Cbutton%2520class%253D%2522btn%2520danger-outlined-btn%2522%253EError%2520Button%253C%252Fbutton%253E"
+                                loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
                     </div>
                     <div class="mg-t-40">
                         <h2 class="md-booky-title bold">Alert With Icons</h2>
@@ -103,35 +108,41 @@
                                 <p class="rg-p">This is a danger alert</p>
                             </div>
                         </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520success-alert%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%2520class%253D%2522rg-p%2522%253E%2520This%2520is%2520a%2520success%2520alert%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520warning-alert%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%2520class%253D%2522rg-p%2522%253EThis%2520is%2520a%2520warning%2520alert%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520danger-alert%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%2520class%253D%2522rg-p%2522%253EThis%2520is%2520a%2520danger%2520alert%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                                loading="lazy" class="code-snip" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
                     </div>
-                </div>
+                </section>
                 <!-- ALERTS-END -->
 
 
 
                 <!-- CARDS START -->
-                <div id="cards">
-                    <h1 class="md-title">Cards</h1>
+                <section id="cards">
+                    <h1 class="lg-title">Cards</h1>
                     <p class="rg-p mg-t-10">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, et laborum voluptate modi,
                         nulla ex, commodi rem dolor quas alias est quae sequi corporis eum mollitia aperiam iure cumque
                         nam?
                     </p>
                     <div class="mg-t-40">
-                        <h2 class="rg-booky-title">Horizontal Cards with Image and Text</h2>
+                        <h2 class="md-booky-title">Horizontal Cards with Image and Text</h2>
                         <div class="center-block card-ex">
                             <div class="flex-col mg-t-30">
                                 <div class="card hor-card">
                                     <div class="img-container">
-                                        <img src="./Assets/Images/book.jpg" alt="">
+                                        <img class="img-resp" src="./Assets/Images/book.jpg" alt="card image">
                                     </div>
                                     <div class="text-card">
-                                        <p class="rg-booky-title">The Chronicles of Narnia </p>
+                                        <p class="md-booky-title bold">The Chronicles of Narnia </p>
                                         <p class="xsm-p grey-txt">Written by C.S.Lewis</p>
                                         <p class="sm-p mg-t-10">Lorem ipsum dolor sit amet consectetur, adipisicing
                                             elit. Fugit
                                             consequatur officiis doloribus. .</p>
-                                        <div class="review-row mg-t-20">
+                                        <div class="review-row mg-t-15">
                                             <div class="rating-row">
                                                 <i class="fas fa-star"></i>
                                                 <p class="sm-title">4.3</p>
@@ -139,67 +150,69 @@
                                             <i class="fas fa-circle"></i>
                                             <p class="review-num xsm-p grey-txt">(43)</p>
                                         </div>
-                                        <div class="mg-t-10">
-                                            <p class="rg-title">Rs. 200</p>
+                                        <div class="mg-t-5">
+                                            <p class="md-title">Rs. 200</p>
                                         </div>
-                                        <div class="card-btn-row mg-t-15">
+                                        <div class="card-btn-row mg-t-10">
                                             <button class="btn primary-btn">Add to Cart</button>
                                             <button class="btn primary-outlined-btn">Add to List</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="code-example">
-                                <iframe
-                                    src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520hor-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252FAssets%252FImages%252Fbook.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522rg-booky-title%2522%253EThe%2520Chronicles%2520of%2520Narnia%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522xsm-p%2520grey-txt%2522%253EWritten%2520by%2520C.S.Lewis%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-p%2520mg-t-10%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520elit.%2520Fugit%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520consequatur%2520officiis%2520doloribus.%2520.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522review-row%2520mg-t-20%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-title%2522%253E4.3%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522review-num%2520xsm-p%2520grey-txt%2522%253E%2843%29%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mg-t-10%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522rg-title%2522%253ERs.%2520200%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-row%2520mg-t-15%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2522%253EAdd%2520to%2520List%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                                    class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                                </iframe>
-                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520hor-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522card%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522md-booky-title%2520bold%2522%253EThe%2520Chronicles%2520of%2520Narnia%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522xsm-p%2520grey-txt%2522%253EWritten%2520by%2520C.S.Lewis%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-p%2520mg-t-10%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%250A%2520%2520%2520%2520%2520%2520consectetur%252C%2520adipisicing%2520elit.%2520Fugit%2520consequatur%2520%250A%2520%2520%2520%2520%2520%2520officiis%2520doloribus.%2520.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522review-row%2520mg-t-15%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-title%2522%253E4.3%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522review-num%2520xsm-p%2520grey-txt%2522%253E%2843%29%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mg-t-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522md-title%2522%253ERs.%2520200%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-row%2520mg-t-10%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2522%253EAdd%2520to%2520List%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
                         </div>
                     </div>
-                    <h2 class="rg-booky-title">Vertical Cards with Image and Text</h2>
-                    <div class="center-block ">
-                        <div class="flex-row mg-t-30">
-                            <div class="card ver-card">
-                                <div class="img-container">
-                                    <img src="./Assets/Images/book.jpg" alt="">
-                                </div>
-                                <div class="text-card">
-                                    <p class="sm-booky-title bold">The Chronicles of Narnia </p>
-                                    <p class="xsm-p grey-txt">from C.S.Lewis</p>
-                                    <div class="mg-t-10 grey-txt">
-                                        <p class="sm-title grey-txt">Rs. 200.83</p>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title">Vertical Cards with Image and Text</h2>
+                        <div class="center-block ">
+                            <div class="flex-row mg-t-30">
+                                <div class="card ver-card">
+                                    <div class="img-container">
+                                        <img class="img-resp" src="./Assets/Images/book.jpg" alt="card image">
+                                    </div>
+                                    <div class="text-card">
+                                        <p class="sm-booky-title bold">The Chronicles of Narnia </p>
+                                        <p class="xsm-p grey-txt">from C.S.Lewis</p>
+                                        <div class="mg-t-5 grey-txt">
+                                            <p class="sm-title grey-txt">Rs. 200</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card ver-lg-card">
-                                <div class="img-container">
-                                    <img src="./Assets/Images/book.jpg" alt="">
-                                </div>
-                                <div class="text-card">
-                                    <p class="sm-booky-title bold">The Chronicles of Narnia </p>
-                                    <p class="xsm-p grey-txt">from C.S.Lewis</p>
-                                    <div class="mg-t-10 grey-txt">
-                                        <p class="sm-title grey-txt">Rs. 200.83</p>
+                                <div class="card ver-lg-card">
+                                    <div class="img-container">
+                                        <img class="img-resp" src="./Assets/Images/book.jpg" alt="card image">
+                                    </div>
+                                    <div class="text-card">
+                                        <p class="sm-booky-title bold">The Chronicles of Narnia </p>
+                                        <p class="xsm-p grey-txt">from C.S.Lewis</p>
+                                        <div class="mg-t-5">
+                                            <p class="sm-title">Rs. 200</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="code-example">
                             <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520ver-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252FAssets%252FImages%252Fbook.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-booky-title%2520bold%2522%253EThe%2520Chronicles%2520of%2520Narnia%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522xsm-p%2520grey-txt%2522%253Efrom%2520C.S.Lewis%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mg-t-10%2520grey-txt%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-title%2520grey-txt%2522%253ERs.%2520200.83%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card%2520ver-lg-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252FAssets%252FImages%252Fbook.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-booky-title%2520bold%2522%253EThe%2520Chronicles%2520of%2520Narnia%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522xsm-p%2520grey-txt%2522%253Efrom%2520C.S.Lewis%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mg-t-10%2520grey-txt%2522%253E%250A%2520%2520%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522sm-title%2520grey-txt%2522%253ERs.%2520200.83%253C%252Fp%253E%250A%2520%2520%2509%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253C%21--%2520small%2520vertical%2520card%2520with%2520image%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520ver-card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522card%2520image%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-booky-title%2520bold%2522%253EThe%2520Chronicles%2520of%2520Narnia%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522xsm-p%2520grey-txt%2522%253Efrom%2520C.S.Lewis%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mg-t-5%2520grey-txt%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-title%2520grey-txt%2522%253ERs.%2520200%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%21--%2520large%2520vertical%2520card%2520with%2520image%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520ver-lg-card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522card%2520image%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-booky-title%2520bold%2522%253EThe%2520Chronicles%2520of%2520Narnia%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522xsm-p%2520grey-txt%2522%253Efrom%2520C.S.Lewis%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mg-t-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-title%2522%253ERs.%2520200%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                                 class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
                             </iframe>
                         </div>
                     </div>
                     <div class="mg-t-40">
-                        <h2 class="rg-booky-title">Flexible and Responsive Card</h2>
+                        <h2 class="md-booky-title">Flexible and Responsive Card</h2>
                         <div class="center-block">
                             <div class="flex-card-wrapper mg-t-30">
                                 <!-- give your width and height to the parent element -->
                                 <div class="card flex-card">
                                     <div class="img-container">
-                                        <img src="./Assets/Images/book.jpg" alt="">
+                                        <img class="img-resp" src="./Assets/Images/book.jpg" alt="card image">
                                     </div>
                                     <div class="text-card">
                                         <p class="sm-booky-title bold">Title</p>
@@ -208,31 +221,31 @@
                             </div>
                         </div>
                         <div class="code-example">
-                            <iframe class="code-snip"
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253C%21--%2520give%2520your%2520width%2520and%2520height%2520to%2520the%2520flex-card-wrapper%252Fparent%2520element%2520--%253E%250A%253Cdiv%2520class%253D%2522flex-card-wrapper%2520mg-t-30%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520flex-card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522.%252FAssets%252FImages%252Fbook.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-card%2522%253E%250A%2520%2520%2520%2509%2509%253Cp%2520class%253D%2522sm-booky-title%2520bold%2522%253ETitle%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                                sandbox="allow-scripts allow-same-origin">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex-card-wrapper%2522%253E%250A%253C%21--%2520give%2520your%2520width%2520and%2520height%2520to%2520the%2520flex-card-wrapper%2520element%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520flex-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522card%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-booky-title%2520bold%2522%253ETitle%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
                             </iframe>
                         </div>
                     </div>
                     <div class="mg-t-40">
-                        <h2 class="rg-booky-title">Card with Overlay and Dismissible</h2>
+                        <h2 class="md-booky-title">Card with Overlay and Dismissible</h2>
                         <div class="center-block">
                             <div class="flex-row mg-t-30">
                                 <div class="card ver-card overlay">
                                     <div class="img-container">
-                                        <img src="./Assets/Images/book.jpg" alt="">
+                                        <img class="img-resp" src="./Assets/Images/book.jpg" alt="card image">
                                     </div>
                                     <div class="text-card">
                                         <p class="sm-booky-title bold">The Chronicles of Narnia </p>
                                         <p class="xsm-p grey-txt">from C.S.Lewis</p>
                                     </div>
                                     <div class="overlay-layer">
-                                        <p class="rg-title">OUT OF STOCK</p>
+                                        <p class="md-title">OUT OF STOCK</p>
                                     </div>
                                 </div>
                                 <div class="card ver-card">
                                     <div class="img-container">
-                                        <img src="./Assets/Images/book.jpg" alt="">
+                                        <img class="img-resp" src="./Assets/Images/book.jpg" alt="card image">
                                     </div>
                                     <div class="text-card">
                                         <p class="sm-booky-title bold">The Chronicles of Narnia </p>
@@ -243,19 +256,19 @@
                             </div>
                         </div>
                         <div class="code-example">
-                            <iframe class="code-snip"
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary-outlined-btn%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520success-outlined-btn%2522%253ESuccess%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-outlined-btn%2522%253EWarning%2520Button%253C%252Fbutton%253E%2520%250A%253Cbutton%2520class%253D%2522btn%2520danger-outlined-btn%2522%253EError%2520Button%253C%252Fbutton%253E"
-                                loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253C%21--%2520card%2520with%2520overlay%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520ver-card%2520overlay%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522card%2520image%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-booky-title%2520bold%2522%253EThe%2520Chronicles%2520of%2520Narnia%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522xsm-p%2520grey-txt%2522%253Efrom%2520C.S.Lewis%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-layer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522rg-title%2522%253EOUT%2520OF%2520STOCK%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--%2520card%2520with%2520dismissible%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520ver-card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522card%2520image%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-booky-title%2520bold%2522%253EThe%2520Chronicles%2520of%2520Narnia%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522xsm-p%2520grey-txt%2522%253Efrom%2520C.S.Lewis%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522close-icon%2520fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
                             </iframe>
                         </div>
                     </div>
-                </div>
+                </section>
                 <!-- CARDS END -->
 
 
 
                 <!-- BUTTONS-START -->
-                <div id="buttons">
+                <section id="buttons">
                     <h1 class="lg-title">Buttons</h1>
                     <p class="rg-p mg-t-10">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deserunt
@@ -270,6 +283,7 @@
                         <h2 class="md-booky-title bold">Solid Buttons</h2>
                         <div class="center-block">
                             <div class="flex-row mg-t-30">
+                                <!-- .solid class gives hover animation -->
                                 <button class="btn primary-btn solid">Primary Button</button>
                                 <button class="btn secondary-btn solid">Secondary Button</button>
                                 <button class="btn success-btn solid">Success Button</button>
@@ -278,9 +292,9 @@
                             </div>
                         </div>
                         <div class="code-example">
-                            <iframe class="code-snip"
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=one-dark&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522alert%2520primary-alert%2522%253EThis%2520is%2520a%2520primary%2520alert%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520secondary-alert%2522%253EThis%2520is%2520a%2520secondary%2520alert%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520signature-alert%2522%253EThis%2520is%2520a%2520signature%2520alert%253C%252Fdiv%253E"
-                                loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520solid%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary-btn%2520solid%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520success-btn%2520solid%2522%253ESuccess%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-btn%2520solid%2522%253EWarning%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520danger-btn%2520solid%2522%253EError%2520Button%253C%252Fbutton%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
                             </iframe>
                         </div>
                     </div>
@@ -289,7 +303,7 @@
                         <div class="center-block">
                             <div class="flex-row mg-t-30">
                                 <button class="btn primary-outlined-btn">Primary Button</button>
-                                <button class="btn secondary-outlined-btn">SecondaryButton</button>
+                                <button class="btn secondary-outlined-btn">Secondary Button</button>
                                 <button class="btn success-outlined-btn">Success Button</button>
                                 <button class="btn warning-outlined-btn">Warning Button</button>
                                 <button class="btn danger-outlined-btn">Error Button</button>
@@ -352,12 +366,12 @@
                             </iframe>
                         </div>
                     </div>
-                </div>
+                </section>
                 <!-- BUTTONS END -->
 
 
                 <!-- AVATAR START -->
-                <div id="avatar">
+                <section id="avatar">
                     <h1 class="lg-title">Avatar</h1>
                     <p class="rg-p mg-t-10">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate architecto, esse
@@ -369,22 +383,22 @@
                         <div class="center-block">
                             <div class="flex-row mg-t-30">
                                 <div class="avatar lg">
-                                    <img class="avatar-img"
+                                    <img class="img-resp round-img"
                                         src="https://avatars.dicebear.com/api/bottts/:meow.svg?backgroundColor=black"
                                         alt="avatar">
                                 </div>
                                 <div class="avatar md">
-                                    <img class="avatar-img"
+                                    <img class="img-resp round-img"
                                         src="https://avatars.dicebear.com/api/bottts/:meow.svg?backgroundColor=black"
                                         alt="avatar">
                                 </div>
                                 <div class="avatar rg">
-                                    <img class="avatar-img"
+                                    <img class="img-resp round-img"
                                         src="https://avatars.dicebear.com/api/bottts/:meow.svg?backgroundColor=black"
                                         alt="avatar">
                                 </div>
                                 <div class="avatar sm">
-                                    <img class="avatar-img"
+                                    <img class="img-resp round-img"
                                         src="https://avatars.dicebear.com/api/bottts/:meow.svg?backgroundColor=black"
                                         alt="avatar">
                                 </div>
@@ -422,13 +436,13 @@
                             </iframe>
                         </div>
                     </div>
-                </div>
+                </section>
                 <!-- AVATAR END -->
 
 
 
                 <!-- BADGES START -->
-                <div id="badges">
+                <section id="badges">
                     <h1 class="lg-title">Badges</h1>
                     <p class="rg-p mg-t-10">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate architecto, esse
@@ -508,20 +522,20 @@
                             </iframe>
                         </div>
                     </div>
-                </div>
+                </section>
                 <!-- BADGES END -->
 
 
                 <!-- GRIDS START -->
-                <div id="grids">
-                    <h1 class="md-title">Grids</h1>
+                <section id="grid">
+                    <h1 class="lg-title">Grid</h1>
                     <p class="rg-p mg-t-10">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate architecto, esse
                         consequuntur delectus vitae rerum corrupti consequatur aut est id dignissimos qui dolorum
                         exercitationem facere eum eaque, porro commodi nihil.
                     </p>
                     <div class="mg-t-40">
-                        <h2 class="rg-booky-title">50-50 Grid Layout</h2>
+                        <h2 class="md-booky-title">50-50 Grid Layout</h2>
                         <div class="grid-layout-5050 mg-t-30">
                             <div class="img-wrapper">
                                 <img class="img-resp" src="./Assets/Images/avatar-img.jpg" alt="grid image">
@@ -541,7 +555,7 @@
                         </div>
                     </div>
                     <div class="mg-t-40">
-                        <h2 class="rg-booky-title">70-30 Grid Layout</h2>
+                        <h2 class="md-booky-title">70-30 Grid Layout</h2>
                         <div class="grid-layout-7030 mg-t-30">
                             <div class="img-wrapper">
                                 <img class="img-resp" src="./Assets/Images/avatar-img.jpg" alt="grid image">
@@ -561,11 +575,11 @@
                         </div>
                     </div>
                     <div class="mg-t-40">
-                        <h2 class="rg-booky-title">Three Column Grid Layout</h2>
+                        <h2 class="md-booky-title">Three Column Grid Layout</h2>
                         <div class="grid-layout-3col mg-t-30">
                             <div class="text-wrapper center-items">
                                 <div class="flex-col">
-                                    <p class="rg-booky-title">Lorem ipsum </p>
+                                    <p class="md-booky-title bold">Lorem ipsum </p>
                                     <button class="btn primary-outlined-btn center-block">Explore</button>
                                 </div>
                             </div>
@@ -574,32 +588,32 @@
                             </div>
                             <div class="text-wrapper center-items">
                                 <div class="flex-col">
-                                    <p class="rg-booky-title">Lorem ipsum </p>
+                                    <p class="md-booky-title bold">Lorem ipsum </p>
                                     <button class="btn warning-outlined-btn center-block">Explore</button>
                                 </div>
                             </div>
                         </div>
                         <div class="code-example">
                             <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-layout-3col%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-wrapper%2520center-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522rg-booky-title%2522%253ELorem%2520ipsum%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2520center-block%2522%253EExplore%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-wrapper%2522%253E%250A%2520%2520%2509%253Cimg%2520class%253D%2522img-resp%2522%2520src%253D%2522...%2522%2520alt%253D%2522grid%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-wrapper%2520center-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522rg-booky-title%2522%253ELorem%2520ipsum%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520warning-outlined-btn%2520center-block%2522%253EExplore%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-layout-3col%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-wrapper%2520center-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522md-booky-title%2522%253ELorem%2520ipsum%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2520center-block%2522%253EExplore%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-wrapper%2522%253E%250A%2520%2520%2509%253Cimg%2520class%253D%2522img-resp%2522%2520src%253D%2522...%2522%2520alt%253D%2522grid%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-wrapper%2520center-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522md-booky-title%2522%253ELorem%2520ipsum%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520warning-outlined-btn%2520center-block%2522%253EExplore%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                                 class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
                             </iframe>
                         </div>
                     </div>
-                </div>
+                </section>
                 <!-- GRIDS END -->
 
 
                 <!-- NAVBAR START -->
-                <div id="navbar">
-                    <h1 class="md-title">NavBar</h1>
+                <section id="navbar">
+                    <h1 class="lg-title">NavBar</h1>
                     <p class="rg-p mg-t-10">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate architecto, esse
                         consequuntur delectus vitae rerum corrupti consequatur aut est id dignissimos qui dolorum
                         exercitationem facere eum eaque, porro commodi nihil.
                     </p>
                     <div class="mg-t-40">
-                        <h2 class="rg-booky-title">Simple Navbar Example</h2>
+                        <h2 class="md-booky-title">Simple Navbar Example</h2>
                         <div class="mg-t-30">
                             <nav class="navbar">
                                 <div class="nav-logo">
@@ -620,7 +634,7 @@
                         </div>
                     </div>
                     <div class="mg-t-40">
-                        <h2 class="rg-booky-title">Navbar Example</h2>
+                        <h2 class="md-booky-title">Navbar Example</h2>
                         <div class="mg-t-30">
                             <nav class="navbar">
                                 <div class="nav-logo">
@@ -655,107 +669,121 @@
                             </iframe>
                         </div>
                     </div>
-                </div>
+                </section>
                 <!-- NAVBAR END -->
 
 
 
 
                 <!-- IMAGE START -->
-                <div id="image">
-                    <h1 class="md-title">Images</h1>
+                <section id="image">
+                    <h1 class="lg-title">Images</h1>
                     <div class="mg-t-40">
-                        <h2 class="rg-booky-title">Responsive Image</h2>
+                        <h2 class="md-booky-title">Responsive Image</h2>
                         <div class="center-block">
                             <div class="mg-t-30">
                                 <div class="custom-img-container">
-                                    <img class="img-resp" src="./Assets/Images/respimg.jpg" alt="responsive image">
+                                    <img class="img-resp" src="./Assets/Images/respimg.jpg" alt="responsive image" />
                                 </div>
                             </div>
                         </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-resp%2522%2520src%253D%2522...%2522%2520alt%253D%2522responsive%2520image%2522%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
                     </div>
                     <div class="mg-t-40">
-                        <h2 class="rg-booky-title">Rounded Image</h2>
+                        <h2 class="md-booky-title">Rounded Image</h2>
                         <div class="center-block">
                             <div class="mg-t-30">
                                 <div class="round-img-container">
                                     <img class="round-img img-resp" src="./Assets/Images/avatar-img.jpg"
-                                        alt="round image">
+                                        alt="round image" />
                                 </div>
                             </div>
                         </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522round-img%2520img-resp%2522%2520src%253D%2522...%2522%2520alt%253D%2522round%2520image%2522%2520%252F%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
                     </div>
-                </div>
+                </section>
 
                 <!-- TYPOGRAPHY START -->
-                <div id="typography">
+                <section id="typography">
                     <h1 class="lg-title">Typography</h1>
                     <p class="rg-p mg-t-10">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate architecto, esse
                         consequuntur delectus vitae rerum corrupti consequatur aut est id dignissimos qui dolorum
                         exercitationem facere eum eaque, porro commodi nihil.
                     </p>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title bold">Example of Standard Title Text</h2>
+                        <div class="center-items">
+                            <div class="typ-ex-grid mg-t-30">
+                                <h1 class="lg-title bold">Large Title</h1>
+                                <div class="tag">
+                                    <p>font-size: 3 rem</p>
+                                </div>
+                                <h1 class="rg-title bold">Regular Title</h1>
+                                <div class="tag">
+                                    <p>font-size: 2 rem</p>
+                                </div>
+                                <h2 class="md-title bold"> Medium Title</h2>
+                                <div class="tag">
+                                    <p>font-size: 1.5 rem</p>
+                                </div>
+                                <h3 class="sm-title bold">Small Title</h3>
+                                <div class="tag">
+                                    <p>font-size: 1.2 rem</p>
+                                </div>
+                                <h4 class="xsm-title bold">Extra Small Title</h4>
+                                <div class="tag">
+                                    <p>font-size: 12 px</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522lg-title%2520bold%2522%253ELarge%2520Title%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522rg-title%2520bold%2522%253ERegular%2520Title%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522md-title%2520bold%2522%253E%2520Medium%2520Title%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522sm-title%2520bold%2522%253ESmall%2520Title%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522xsm-title%2520bold%2522%253EExtra%2520Small%2520Title%253C%252Fh4%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title bold">Example of Stylish Title Text</h2>
+                        <div class="center-items">
+                            <div class="typ-ex-grid mg-t-30">
+                                <h1 class="lg-booky-title bold">Large Booky Title</h1>
+                                <div class="tag">
+                                    <p>font-size: 2.5 rem</p>
+                                </div>
+                                <h2 class="md-booky-title bold">Regular Booky Title</h2>
+                                <div class="tag">
+                                    <p>font-size: 2 rem</p>
+                                </div>
+                                <h3 class="md-booky-title bold"> Medium Booky Title</h3>
+                                <div class="tag">
+                                    <p>font-size: 1.5 rem</p>
+                                </div>
+                                <h4 class="sm-booky-title bold">Small Booky Title</h4>
+                                <div class="tag">
+                                    <p>font-size: 1.2 rem</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522lg-booky-title%2520bold%2522%253ELarge%2520Booky%2520Title%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522md-booky-title%2520bold%2522%253ERegular%2520Booky%2520Title%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522md-booky-title%2520bold%2522%253E%2520Medium%2520Booky%2520Title%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522sm-booky-title%2520bold%2522%253ESmall%2520Booky%2520Title%253C%252Fh4%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
 
-                    <h2 class="md-booky-title bold">Example of Standard Title Text</h2>
-                    <div class="center-items">
-                        <div class="typ-ex-grid mg-t-30">
-                            <h1 class="lg-title bold">Large Booky Title</h1>
-                            <div class="tag">
-                                <p>font-size: 3 rem</p>
-                            </div>
-                            <h1 class="rg-title bold">Regular Booky Title</h1>
-                            <div class="tag">
-                                <p>font-size: 2 rem</p>
-                            </div>
-                            <h2 class="md-title bold"> Medium Booky Title</h2>
-                            <div class="tag">
-                                <p>font-size: 1.5 rem</p>
-                            </div>
-                            <h3 class="sm-title bold">Small Booky Title</h3>
-                            <div class="tag">
-                                <p>font-size: 1.2 rem</p>
-                            </div>
-                            <h4 class="xsm-title bold">Extra Small Booky Title</h4>
-                            <div class="tag">
-                                <p>font-size: 12 px</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="code-example">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522custom-img-container%2522%253E%250A%2509%253Cimg%2520class%253D%2522img-resp%2522%2520src%253D%2522.%252FAssets%252FImages%252Frespimg.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%253C%252Fdiv%253E"
-                            src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522lg-title%2520bold%2522%253ELarge%2520Booky%2520Title%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522rg-title%2520bold%2522%253ERegular%2520Booky%2520Title%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522md-title%2520bold%2522%253E%2520Medium%2520Booky%2520Title%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522sm-title%2520bold%2522%253ESmall%2520Booky%2520Title%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522xsm-title%2520bold%2522%253EExtra%2520Small%2520Booky%2520Title%253C%252Fh4%253E"
-                            class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </div>
-                    <h2 class="md-booky-title bold">Example of Stylish Title Text</h2>
-                    <div class="center-items">
-                        <div class="typ-ex-grid mg-t-30">
-                            <h1 class="lg-booky-title bold">Large Booky Title</h1>
-                            <div class="tag">
-                                <p>font-size: 2.5 rem</p>
-                            </div>
-                            <h2 class="rg-booky-title bold">Regular Booky Title</h2>
-                            <div class="tag">
-                                <p>font-size: 2 rem</p>
-                            </div>
-                            <h3 class="md-booky-title bold"> Medium Booky Title</h3>
-                            <div class="tag">
-                                <p>font-size: 1.5 rem</p>
-                            </div>
-                            <h4 class="sm-booky-title bold">Small Booky Title</h4>
-                            <div class="tag">
-                                <p>font-size: 1.2 rem</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="code-example">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522round-img-container%2522%253E%250A%2509%253Cimg%2520class%253D%2522round-img%2520img-resp%2522%2520src%253D%2522.%252FAssets%252FImages%252Favatar-img.jpg%2522%2520alt%253D%2522round%2520image%2522%253E%250A%253C%252Fdiv%253E"
-                            src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522lg-booky-title%2520bold%2522%253ELarge%2520Booky%2520Title%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522rg-booky-title%2520bold%2522%253ERegular%2520Booky%2520Title%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522md-booky-title%2520bold%2522%253E%2520Medium%2520Booky%2520Title%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522sm-booky-title%2520bold%2522%253ESmall%2520Booky%2520Title%253C%252Fh4%253E"
-                            class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </div>
                     <div class="mg-t-40">
                         <h2 class="md-booky-title bold">Example of Paragraph Text</h2>
                         <div class="center-items">
@@ -776,7 +804,7 @@
                         </div>
                         <div class="code-example">
                             <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2520sm-title%2522%2520for%253D%2522name%2522%253EName%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522user-input%2522%2520id%253D%2522name%2522%2520type%253D%2522text%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2520sm-title%2522%2520for%253D%2522name%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522user-input%2522%2520id%253D%2522name%2522%2520type%253D%2522password%2522%2520placeholder%253D%25226%252B%2520characters%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522rg-p%2522%253ERegular%2520Paragraph%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2522%253ESmall%2520Paragraph%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522xsm-p%2522%253EExtra%2520Small%2520Paragraph%2520Text%253C%252Fp%253E"
                                 class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
                             </iframe>
                         </div>
@@ -798,20 +826,19 @@
                         </div>
                         <div class="code-example">
                             <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522error%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2520sm-title%2522%2520for%253D%2522name%2522%253EName%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522user-input%2522%2520id%253D%2522name%2522%2520type%253D%2522text%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522success%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2520sm-title%2522%2520for%253D%2522name%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522user-input%2522%2520id%253D%2522name%2522%2520type%253D%2522password%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
                                 src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522sm-p%2520light-grey-txt%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520grey-txt%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520bold%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520violet-txt%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520orange-txt%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520striked-txt%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520center-txt%2522%253ECENTERED%2520TEXT%253C%252Fp%253E"
                                 class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
                             </iframe>
                         </div>
                     </div>
-                </div>
+                </section>
                 <!-- IMAGE END -->
 
 
 
                 <!-- INPUT START -->
-                <div id="input">
-                    <h1 class="md-title">Input</h1>
+                <section id="input">
+                    <h1 class="lg-title">Input</h1>
                     <p class="rg-p mg-t-10">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate architecto, esse
                         consequuntur delectus vitae rerum corrupti consequatur aut est id dignissimos qui
@@ -819,7 +846,7 @@
                         exercitationem facere eum eaque, porro commodi nihil.
                     </p>
                     <div class="mg-t-40">
-                        <h2 class="rg-booky-title">Example of Inputs</h2>
+                        <h2 class="md-booky-title">Example of Inputs</h2>
                         <div class="center-block inp-ex">
                             <div>
                                 <label class="input-label sm-title" for="name">Name</label>
@@ -830,29 +857,40 @@
                                 <input class="user-input" id="password" type="password" placeholder="6+ characters" />
                             </div>
                         </div>
-                    </div>
-
-                    <div class="mg-t-40">
-                        <h2 class="rg-booky-title">Inputs with Validation</h2>
-                        <div class="center-block inp-ex">
-                            <div class="error">
-                                <label class="input-label sm-title" for="name">Name</label>
-                                <input class="user-input" id="name" type="text" />
-                            </div>
-                            <div class="mg-t-10 success">
-                                <label class="input-label sm-title" for="name">Password</label>
-                                <input class="user-input" id="name" type="password" />
-                            </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2520sm-title%2522%2520for%253D%2522name%2522%253EName%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522user-input%2522%2520id%253D%2522name%2522%2520type%253D%2522text%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2520sm-title%2522%2520for%253D%2522password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522user-input%2522%2520id%253D%2522password%2522%2520type%253D%2522password%2522%2520placeholder%253D%25226%252B%2520characters%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
                         </div>
                     </div>
-                </div>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title">Inputs with Validation</h2>
+                        <div class="center-block inp-ex">
+                            <div class="error">
+                                <label class="input-label sm-title" for="error-name">Name</label>
+                                <input class="user-input" id="error-name" type="text" />
+                            </div>
+                            <div class="mg-t-10 success">
+                                <label class="input-label sm-title" for="success-name">Password</label>
+                                <input class="user-input" id="success-name" type="password" />
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253C%21--%2520error%2520input%2520fields%2520--%253E%250A%253Cdiv%2520class%253D%2522error%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2520sm-title%2522%2520for%253D%2522error-name%2522%253EName%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522user-input%2522%2520id%253D%2522error-name%2522%2520type%253D%2522text%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%253C%21--%2520success%2520input%2520fields%2520--%253E%250A%253Cdiv%2520class%253D%2522success%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2520sm-title%2522%2520for%253D%2522success-name%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522user-input%2522%2520id%253D%2522success-name%2522%2520type%253D%2522password%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>
                 <!-- INPUT END -->
 
 
 
                 <!-- TOAST START -->
-                <div id="toast">
-                    <h1 class="md-title">Toast</h1>
+                <section id="toast">
+                    <h1 class="lg-title">Toast</h1>
                     <p class="rg-p mg-t-10">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
                         architecto, esse
@@ -861,7 +899,7 @@
                         exercitationem facere eum eaque, porro commodi nihil.
                     </p>
                     <div class="mg-t-40">
-                        <h2 class="rg-booky-title">Toast Example</h2>
+                        <h2 class="md-booky-title">Toast Example</h2>
                         <div class="center-block">
                             <div class="flex-col mg-t-30">
                                 <div class="toast success-toast">
@@ -869,21 +907,21 @@
                                         <i class="fas fa-check-circle"></i>
                                         <p class="sm-p bold">Success toast</p>
                                     </div>
-                                    <i class="fas fa-times"></i>
+                                    <i class="fas fa-times close-toast"></i>
                                 </div>
                                 <div class="toast warning-toast">
                                     <div class="flex-row">
                                         <i class="fas fa-exclamation-circle"></i>
                                         <p class="sm-p bold">Warning toast</p>
                                     </div>
-                                    <i class="fas fa-times"></i>
+                                    <i class="fas fa-times close-toast"></i>
                                 </div>
                                 <div class="toast danger-toast">
                                     <div class="flex-row">
                                         <i class="fas fa-exclamation-triangle"></i>
                                         <p class="sm-p bold">Error toast</p>
                                     </div>
-                                    <i class="fas fa-times"></i>
+                                    <i class="fas fa-times close-toast"></i>
                                 </div>
                                 <div class="flex-row">
                                     <button id="show-bottom-toast" class="btn primary-btn solid">
@@ -902,14 +940,14 @@
                             class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
-                </div>
+                </section>
                 <!-- TOAST END -->
 
 
 
                 <!-- SLIDER START -->
-                <div id="slider">
-                    <h1 class="md-title">Slider</h1>
+                <section id="slider">
+                    <h1 class="lg-title">Slider</h1>
                     <p class="rg-p mg-t-10">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
                         architecto, esse
@@ -918,12 +956,12 @@
                         exercitationem facere eum eaque, porro commodi nihil.
                     </p>
                     <div class="mg-t-40">
-                        <h2 class="rg-booky-title">Slider Example</h2>
+                        <h2 class="md-booky-title">Slider Example</h2>
                     </div>
                     <div class="center-block">
                         <div class="flex-col mg-t-30">
                             <input id="range-slider" type="range" min="0" max="100" value="50">
-                            <p id="slider-value" class="sm-p bold">value: </p>
+                            <p id="slider-value" class="sm-p">value: </p>
                         </div>
                     </div>
                     <div class="code-example">
@@ -932,11 +970,13 @@
                             class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
-                </div>
+                </section>
                 <!-- SLIDER END -->
 
+
+
                 <!-- LISTS START -->
-                <div id="lists">
+                <section id="lists">
                     <h1 class="lg-title">Lists</h1>
                     <p class="rg-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga asperiores sit saepe,
                         explicabo, exercitationem officia doloribus dolorum consequuntur porro fugiat aliquam alias,
@@ -1020,15 +1060,15 @@
                             </iframe>
                         </div>
                     </div>
-                </div>
-                <!-- LISTS END -->
-
-
-
             </div>
-            <div class="floating-btn bottom-right custom">
-                <i class="fas fa-arrow-up"></i>
-            </div>
+            <!-- LISTS END -->
+
+
+
+        </div>
+        <div class="floating-btn bottom-right custom">
+            <i class="fas fa-arrow-up"></i>
+        </div>
     </main>
 
 
@@ -1039,14 +1079,14 @@
             <i class="fas fa-check-circle"></i>
             <p class="sm-p bold">Success toast</p>
         </div>
-        <i id="dismiss-btmtoast-btn" class="fas fa-times"></i>
+        <i id="dismiss-btmtoast-btn" class="close-toast fas fa-times"></i>
     </div>
     <div id="top-toast" class="toast danger-toast">
         <div class="flex-row">
             <i class="fas fa-exclamation-triangle"></i>
             <p class="sm-p bold">Error toast</p>
         </div>
-        <i id="dismiss-toptoast-btn" class="fas fa-times"></i>
+        <i id="dismiss-toptoast-btn" class="close-toast fas fa-times"></i>
     </div>
     <!-- TOAST-DEMO-END -->
 

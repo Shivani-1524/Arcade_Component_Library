@@ -31,6 +31,10 @@
   font-size: 17px;
 }
 
+.close-toast {
+  cursor: pointer;
+}
+
 .success-toast {
   background-color: var(--green-color);
   color: var(--white);

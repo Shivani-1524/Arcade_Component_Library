@@ -42,6 +42,9 @@
 .icon-btn:hover {
   background-color: var(--yellow-color-light);
 }
+.icon-btn.danger-icon:hover {
+  background-color: var(--light-red-color);
+}
 .primary-icon {
   background-color: var(--light-grey);
   color: var(--violet-color);
@@ -70,7 +73,6 @@
 .warning-btn {
   background-color: var(--yellow-color);
   color: var(--black);
-  font-weight: 700;
 }
 .danger-btn {
   background-color: var(--red-color);
