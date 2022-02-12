@@ -15,7 +15,6 @@ modalBtnCancel.addEventListener("click", () => {
 });
 
 modalBtnClose.addEventListener("click", () => {
-    console.log("BRUH")
     removeModal();
 });
 
