@@ -47,7 +47,7 @@
   min-width: max-content;
   height: max-content;
   display: grid;
-  grid-template-rows: 250px auto auto;
+  grid-template-rows: 250px auto;
 }
 .ver-lg-card {
   width: 100%;
@@ -59,6 +59,10 @@
 
 .icon-badge.top-right {
   top: 5px;
+  right: 5px;
+}
+.icon-badge.bottom-right {
+  bottom: 5px;
   right: 5px;
 }
 

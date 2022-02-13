@@ -6,7 +6,7 @@
 
 .btn {
   width: fit-content;
-  height: min-content;
+  height: 3.1rem;
   border: none;
   padding: 0.6rem;
   border-radius: 0.4rem;
@@ -33,6 +33,7 @@
 }
 
 .ghost-btn {
+  height: min-content;
   padding: 5px;
   border-bottom: 2px solid var(--neon-green-color);
 }
@@ -43,6 +44,7 @@
 }
 
 .subtle-btn {
+  height: min-content;
   border: 1px solid var(--grey);
   padding: 2px 5px;
   border-radius: 3px;
@@ -53,6 +55,7 @@
 }
 
 .link-btn {
+  height: min-content;
   padding: 0px;
   border-radius: 0px;
   border-bottom: 2px solid var(--yellow-color);
@@ -62,9 +65,12 @@
 .icon-btn.toggle-icon:hover {
   background-color: transparent;
 }
-/* .icon-btn.toggle-icon {
+.icon-btn.toggle-icon {
+  padding: 0px;
+  width: min-content;
+  height: min-content;
   color: var(--light-grey);
-} */
+}
 
 .icon-btn {
   width: 2.5rem;
