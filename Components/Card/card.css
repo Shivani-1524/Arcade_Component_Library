@@ -1,6 +1,6 @@
-.center-block.card-ex {
+/* .center-block.card-ex {
   width: 70%;
-}
+} */
 
 .card {
   cursor: pointer;
@@ -13,6 +13,7 @@
 
 .hor-card {
   width: 100%;
+  min-width: 350px;
   display: grid;
   grid-template-columns: 200px 1fr;
   grid-template-rows: auto;
@@ -43,8 +44,8 @@
   grid-template-rows: 250px auto auto;
 }
 .ver-lg-card {
-  width: 350px;
-  min-width: fit-content;
+  max-width: 350px;
+  min-width: 100%;
   height: fit-content;
   display: grid;
   grid-template-rows: 200px auto;
@@ -96,7 +97,7 @@
   width: fit-content;
   gap: 5px;
 }
-.rating-row i {
+.rating-row .fa-star {
   font-size: 16px;
   color: var(--green-color);
 }
@@ -108,6 +109,7 @@
   margin-top: 0px;
   width: fit-content;
   display: flex;
+  flex-wrap: wrap;
   gap: 15px;
 }
 

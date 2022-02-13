@@ -87,3 +87,16 @@ input {
 .fa-searchengin:before {
   content: "\f002";
 }
+
+.navbar .show-md {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar .hide-md {
+    display: none;
+  }
+  .navbar .show-md {
+    display: flex;
+  }
+}
