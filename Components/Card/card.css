@@ -27,8 +27,8 @@
 }
 
 .flex-card-wrapper {
-  width: 200px;
-  height: 300px;
+  width: 15rem;
+  height: 23rem;
 }
 
 .flex-card {
@@ -43,18 +43,18 @@
 }
 
 .ver-card {
-  width: 200px;
+  width: 15rem;
   min-width: max-content;
   height: max-content;
   display: grid;
-  grid-template-rows: 250px auto;
+  grid-template-rows: 19.2rem auto;
 }
 .ver-lg-card {
   width: 100%;
-  max-width: 350px;
+  max-width: 27rem;
   height: fit-content;
   display: grid;
-  grid-template-rows: 200px auto;
+  grid-template-rows: 15rem auto;
 }
 
 .icon-badge.top-right {
@@ -76,7 +76,7 @@
 
 .hor-card .img-container {
   height: 100%;
-  width: 170px;
+  width: 13rem;
   margin-right: 30px;
 }
 
@@ -113,7 +113,7 @@
   gap: 5px;
 }
 .rating-row .fa-star {
-  font-size: 16px;
+  font-size: 1.2rem;
   color: var(--green-color);
 }
 .review-num {
