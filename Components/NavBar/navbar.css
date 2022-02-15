@@ -28,6 +28,7 @@
 }
 
 .nav-items {
+  padding-top: 10px;
   gap: 22px;
   display: flex;
   align-items: center;
@@ -98,5 +99,10 @@ input {
   }
   .navbar .show-md {
     display: flex;
+  }
+}
+@media only screen and (max-width: 687px) {
+  .navbar .hide-sm {
+    display: none;
   }
 }

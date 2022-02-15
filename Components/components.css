@@ -18,6 +18,7 @@
 @import "./Lists/lists.css";
 @import "./Modal/modal.css";
 @import "./Rating/rating.css";
+@import "./Footer/footer.css";
 
 html {
   overflow: scroll;

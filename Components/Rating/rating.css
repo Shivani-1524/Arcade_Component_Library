@@ -1,11 +1,11 @@
-.rating-row {
+.rating-stars {
   display: flex;
   gap: 7px;
   justify-content: center;
   align-items: center;
 }
 
-.rating-row i {
+.rating-stars i {
   font-size: 1.4rem;
   color: var(--grey);
   cursor: pointer;
