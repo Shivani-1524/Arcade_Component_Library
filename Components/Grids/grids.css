@@ -3,13 +3,6 @@
   height: auto;
 }
 
-img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-}
-
 .grid-layout-5050 {
   display: grid;
   grid-template-columns: 1fr 1fr;

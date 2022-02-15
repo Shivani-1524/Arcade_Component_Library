@@ -1,4 +1,4 @@
-.floating-btn {
+.fab {
   width: 50px;
   height: 50px;
   background-color: var(--orange-color);
@@ -11,25 +11,25 @@
   transition: all 0.1s ease-in-out;
 }
 
-.floating-btn:hover {
+.fab:hover {
   cursor: pointer;
   box-shadow: 0 6px 14px 0 var(--box-shadow-dark);
   transform: scale(1.05);
 }
 
-.floating-btn i {
+.fab i {
   font-size: 1.5rem;
   color: var(--black);
 }
 
-.floating-btn.bottom-right {
+.fab.bottom-right {
   position: fixed;
   right: 0px;
   bottom: 0px;
 }
 
 /* being used */
-.floating-btn.bottom-right.custom {
+.fab.bottom-right.custom {
   position: fixed;
   right: 3rem;
   bottom: 1.9rem;

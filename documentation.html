@@ -35,22 +35,23 @@
                     <a href="#avatar" class="sidenav-item sidenav-txt">Avatar</a>
                     <a href="#badges" class="sidenav-item sidenav-txt">Badges</a>
                     <a href="#buttons" class="sidenav-item sidenav-txt">Buttons</a>
-                    <a href="#cards" class="sidenav-item sidenav-txt">Cards</a>
                     <a href="#image" class="sidenav-item sidenav-txt">Image</a>
-                    <a href="#input" class="sidenav-item sidenav-txt">Input</a>
+                    <a href="#cards" class="sidenav-item sidenav-txt">Cards</a>
+                    <a href="#inputs" class="sidenav-item sidenav-txt">Inputs</a>
+                    <a href="#lists" class="sidenav-item sidenav-txt">Lists</a>
                     <a href="#navbar" class="sidenav-item sidenav-txt">NavBar</a>
+                    <a href="#modal" class="sidenav-item sidenav-txt">Modal</a>
                     <a href="#toast" class="sidenav-item sidenav-txt">Toast</a>
                     <a href="#slider" class="sidenav-item sidenav-txt">Slider</a>
                     <a href="#rating" class="sidenav-item sidenav-txt">Rating</a>
-                    <a href="#modal" class="sidenav-item sidenav-txt">Modal</a>
                 </div>
                 <div class="sidenav-section">
                     <p class="sidenav-item title sm-title">
                         Utilities
                     </p>
                     <div>
-                        <a href="#typography" class="sidenav-item sidenav-txt">Typography</a>
                         <a href="#colors" class="sidenav-item sidenav-txt">Colors</a>
+                        <a href="#typography" class="sidenav-item sidenav-txt">Typography</a>
                         <a href="#grid" class="sidenav-item sidenav-txt">Grid</a>
                     </div>
                 </div>
@@ -66,13 +67,13 @@
                 <section id="alerts" class="alerts-section">
                     <h1 class="lg-title">Alerts</h1>
                     <p class="rg-p mg-t-10">
-                        Alerts are used to attract the user's eye towards important information in accordance to
-                        priority.
-                        without abdruptly interrupting the user's flow.
+                        Alerts are used to draw the user's attention to essential information based on importance
+                        without
+                        abruptly disrupting the user's flow.
                     </p>
-                    <p class="rg-p">
-                        Alerts are available in 3 types - with icons, without icons and with an icon to dismiss it.
-                        Examples of these are given below along with the relevant code.
+                    <p class="rg-p mg-t-5">
+                        Alerts are classified into three types: those with icons, those without icons, and those with a
+                        dismissal icon. Examples of these are shown below, along with the corresponding code.
                     </p>
                     <div class="mg-t-40">
                         <h2 class="md-booky-title bold">Simple Alert Bar Without Icons</h2>
@@ -122,13 +123,348 @@
 
 
 
+                <!-- AVATAR START -->
+                <section id="avatar">
+                    <h1 class="lg-title">Avatar</h1>
+                    <p class="rg-p mg-t-10">
+                        Avatars can be used to display a user's profile image or their initials in place of a picture.
+                    </p>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title bold">Profile Avatar </h2>
+                        <div class="center-block">
+                            <div class="flex-row mg-t-30">
+                                <div class="avatar lg">
+                                    <img class="img-resp round-img"
+                                        src="https://avatars.dicebear.com/api/bottts/:meow.svg?backgroundColor=black"
+                                        alt="avatar">
+                                </div>
+                                <div class="avatar md">
+                                    <img class="img-resp round-img"
+                                        src="https://avatars.dicebear.com/api/bottts/:meow.svg?backgroundColor=black"
+                                        alt="avatar">
+                                </div>
+                                <div class="avatar rg">
+                                    <img class="img-resp round-img"
+                                        src="https://avatars.dicebear.com/api/bottts/:meow.svg?backgroundColor=black"
+                                        alt="avatar">
+                                </div>
+                                <div class="avatar sm">
+                                    <img class="img-resp round-img"
+                                        src="https://avatars.dicebear.com/api/bottts/:meow.svg?backgroundColor=black"
+                                        alt="avatar">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe class="code-snip"
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520lg%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520md%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520rg%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520sm%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E"
+                                loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title bold">Text Avatars</h2>
+                        <div class="center-block">
+                            <div class="flex-row mg-t-30">
+                                <div class="avatar avatar-txt lg">
+                                    KS
+                                </div>
+                                <div class="avatar avatar-txt md">
+                                    KS
+                                </div>
+                                <div class="avatar avatar-txt rg ">
+                                    KS
+                                </div>
+                                <div class="avatar avatar-txt sm">
+                                    KS
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe class="code-snip"
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-txt%2520lg%2522%253E%2520KS%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-txt%2520md%2522%253E%2520KS%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-txt%2520rg%2522%253E%2520KS%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-txt%2520sm%2522%253E%2520KS%2520%253C%252Fdiv%253E"
+                                loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>
+                <!-- AVATAR END -->
+
+
+
+
+
+                <!-- BADGES START -->
+                <section id="badges">
+                    <h1 class="lg-title">Badges</h1>
+                    <p class="rg-p mg-t-10">
+                        Badges are used to display a person's status (i.e. active, offline), to depict the quantity of
+                        items in a category, and to emphasise or draw attention to certain objects.
+                    </p>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title bold">Status Badge</h2>
+                        <div class="center-block">
+                            <div class="flex-row mg-t-30">
+                                <div class="avatar lg pos-rel">
+                                    <img class="avatar-img"
+                                        src="https://avatars.dicebear.com/api/bottts/:seed.svg?backgroundColor=black"
+                                        alt="avatar">
+                                    <i class="badge badge-left badge-grey"></i>
+                                </div>
+                                <div class="avatar md avatar-txt pos-rel">
+                                    KS
+                                    <i class="badge badge-right"></i>
+                                </div>
+                                <div class="avatar rg pos-rel">
+                                    <img class="avatar-img"
+                                        src="https://avatars.dicebear.com/api/bottts/:seed.svg?backgroundColor=black"
+                                        alt="avatar">
+                                    <i class="badge badge-right"></i>
+                                </div>
+                                <div class="avatar avatar-txt sm pos-rel">
+                                    KS
+                                    <i class="badge badge-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe class="code-snip"
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520lg%2520pos-rel%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%2509%253Ci%2520class%253D%2522badge%2520badge-left%2520badge-grey%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520md%2520avatar-txt%2520pos-rel%2522%253E%250A%2520%2509KS%2520%2520%253Ci%2520class%253D%2522badge%2520badge-right%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                                loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title bold">Text and Icon Badge</h2>
+                        <div class="center-block">
+                            <div class="flex-row mg-t-30">
+                                <div class="icon-badge pos-rel">
+                                    <i class="fas fa-book-open"></i>
+                                    <div class="badge num-badge center-items">
+                                        <p class="xsm-title">9</p>
+                                    </div>
+                                </div>
+                                <button class="btn icon-btn pos-rel">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <div class="badge num-sm-badge center-items">
+                                        <p class="xsm-title">9</p>
+                                    </div>
+                                </button>
+                                <div class="icon-badge">
+                                    <i class="fas fa-book-open"></i>
+                                </div>
+                                <div class="text-badge primary">
+                                    <p class="xsm-title">Bestseller</p>
+                                </div>
+                                <div class="text-badge secondary">
+                                    <p class="xsm-title">New</p>
+                                </div>
+                                <div class="text-badge primary">
+                                    <p class="sm-title bold">Trending</p>
+                                </div>
+                                <!-- <button class="btn icon-btn">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button> -->
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe class="code-snip"
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522icon-badge%2520pos-rel%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-book-open%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520num-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522xsm-title%2522%253E%252B9%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522icon-badge%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-book-open%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522text-badge%2520primary%2522%253E%250A%2520%2509%2509%253Cp%2520class%253D%2522xsm-title%2522%253EBestseller%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522text-badge%2520secondary%2522%253E%250A%2509%2509%253Cp%2520class%253D%2522xsm-title%2522%253ENew%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                                loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>
+                <!-- BADGES END -->
+
+
+
+
+
+                <!-- BUTTONS-START -->
+                <section id="buttons">
+                    <h1 class="lg-title">Buttons</h1>
+                    <p class="rg-p mg-t-10">
+                        Buttons are mostly used to show that an object is clickable. They are commonly used as call to
+                        action indicators, but they can also be clickable icons, toggle buttons, or links.
+
+                    </p>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title bold">Solid Buttons</h2>
+                        <p class="sm-p mg-t-5">
+                            The <span class="violet-txt bold">.solid</span> class gives the button its hover effect feel
+                            free
+                            to remove it and customise it
+                            to
+                            your
+                            needs.
+                        </p>
+
+                        <div class="center-block">
+                            <div class="flex-row mg-t-30">
+                                <!-- .solid class gives hover animation -->
+                                <button class="btn primary-btn solid">Primary Button</button>
+                                <button class="btn secondary-btn solid">Secondary Button</button>
+                                <button class="btn success-btn solid">Success Button</button>
+                                <button class="btn warning-btn solid">Warning Button</button>
+                                <button class="btn danger-btn solid">Error Button</button>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520solid%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary-btn%2520solid%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520success-btn%2520solid%2522%253ESuccess%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-btn%2520solid%2522%253EWarning%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520danger-btn%2520solid%2522%253EError%2520Button%253C%252Fbutton%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title bold">Outlined Buttons</h2>
+                        <div class="center-block">
+                            <div class="flex-row mg-t-30">
+                                <button class="btn primary-outlined-btn">Primary Button</button>
+                                <button class="btn secondary-outlined-btn">Secondary Button</button>
+                                <button class="btn success-outlined-btn">Success Button</button>
+                                <button class="btn warning-outlined-btn">Warning Button</button>
+                                <button class="btn danger-outlined-btn">Error Button</button>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe class="code-snip"
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary-outlined-btn%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520success-outlined-btn%2522%253ESuccess%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-outlined-btn%2522%253EWarning%2520Button%253C%252Fbutton%253E%2520%250A%253Cbutton%2520class%253D%2522btn%2520danger-outlined-btn%2522%253EError%2520Button%253C%252Fbutton%253E"
+                                loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title bold">Other Button Styles</h2>
+                        <div class="center-block">
+                            <div class="flex-row mg-t-30">
+                                <button class="btn ghost-btn">Ghost Mode</button>
+                                <button class="btn subtle-btn">Subtle Button</button>
+                                <button class="btn link-btn">Link</button>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520ghost-btn%2522%253EGhost%2520Mode%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520subtle-btn%2522%253ESubtle%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520link-btn%2522%253ELink%253C%252Fbutton%253E"
+                                loading="lazy" class="code-snip" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title bold">Floating Action button and Toggle Buttons</h2>
+                        <div class="center-block">
+                            <div class="flex-row mg-t-30">
+                                <button class="fab">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe class="code-snip"
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522floating-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Clabel%2520class%253D%2522switch%2522%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522slider%2520round%2522%253E%253C%252Fspan%253E%250A%253C%252Flabel%253E"
+                                loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title bold">Buttons with Icons and Icon Buttons</h2>
+                        <div class="center-block">
+                            <div class="flex-row mg-t-30">
+                                <button class="btn primary-btn solid icon-left">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Bag
+                                </button>
+                                <button class="btn warning-outlined-btn icon-right">
+                                    Add to Favourites
+                                    <i class="far fa-star"></i>
+                                </button>
+                                <button class="btn icon-btn danger-icon center-items">
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+                                <button class="btn icon-btn center-items">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                                <button class="btn icon-btn primary-icon">
+                                    <i class="fas fa-bookmark"></i>
+                                </button>
+                                <button id="star-toggle-btn" class="btn icon-btn toggle-icon">
+                                    <i class="fas fa-star"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520solid%2520icon-left%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520Add%2520to%2520Bag%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-outlined-btn%2520icon-right%2522%253E%250A%2520%2520Add%2520to%2520Favourites%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520icon-btn%2520danger-icon%2520center-items%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520icon-btn%2520center-items%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520icon-btn%2520primary-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bookmark%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520id%253D%2522star-toggle-btn%2522%2520class%253D%2522btn%2520icon-btn%2520toggle-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>
+                <!-- BUTTONS END -->
+
+
+
+
+
+                <!-- IMAGE START -->
+                <section id="image">
+                    <h1 class="lg-title">Images</h1>
+                    <p class="rg-p mg-t-10">
+                        The aspect ratio of the image is maintatined across all sizes, making it a responsive image.
+                        There are two types: rounded and rectangular, as shown below.
+                    </p>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title">Responsive Image</h2>
+                        <div class="center-block">
+                            <div class="mg-t-30">
+                                <div class="custom-img-container">
+                                    <img class="img-resp" src="./Assets/Images/respimg.jpg" alt="responsive image" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-resp%2522%2520src%253D%2522...%2522%2520alt%253D%2522responsive%2520image%2522%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title">Rounded Image</h2>
+                        <div class="center-block">
+                            <div class="mg-t-30">
+                                <div class="round-img-container">
+                                    <img class="round-img img-resp" src="./Assets/Images/avatar-img.jpg"
+                                        alt="round image" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522round-img%2520img-resp%2522%2520src%253D%2522...%2522%2520alt%253D%2522round%2520image%2522%2520%252F%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>
+                <!-- IMAGE END -->
+
+
+
+
+
                 <!-- CARDS START -->
                 <section id="cards">
                     <h1 class="lg-title">Cards</h1>
                     <p class="rg-p mg-t-10">
-                        Cards are used to show data that belong to the same group or are related in any way. Usually
-                        used a lot to display product information. There are minly Horizontal and vertical cards as seen
-                        below.
+                        Cards are used to display data that is part of the same group or is related in some way.
+                        Typically used to display product information. Horizontal and vertical cards are the two
+                        variations, as shown below.
                     </p>
                     <div class="mg-t-40">
                         <h2 class="md-booky-title">Horizontal Cards with Image and Text</h2>
@@ -315,610 +651,14 @@
 
 
 
-                <!-- BUTTONS-START -->
-                <section id="buttons">
-                    <h1 class="lg-title">Buttons</h1>
-                    <p class="rg-p mg-t-10">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deserunt
-                        id
-                        ipsam doloremque
-                        sapiente voluptates facere necessitatibus ex debitis incidunt a, tempore,
-                        quas
-                        iste eveniet
-                        facilis minus. Perferendis, fugit. Aliquid?
-                    </p>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title bold">Solid Buttons</h2>
-                        <div class="center-block">
-                            <div class="flex-row mg-t-30">
-                                <!-- .solid class gives hover animation -->
-                                <button class="btn primary-btn solid">Primary Button</button>
-                                <button class="btn secondary-btn solid">Secondary Button</button>
-                                <button class="btn success-btn solid">Success Button</button>
-                                <button class="btn warning-btn solid">Warning Button</button>
-                                <button class="btn danger-btn solid">Error Button</button>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520solid%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary-btn%2520solid%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520success-btn%2520solid%2522%253ESuccess%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-btn%2520solid%2522%253EWarning%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520danger-btn%2520solid%2522%253EError%2520Button%253C%252Fbutton%253E"
-                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title bold">Outlined Buttons</h2>
-                        <div class="center-block">
-                            <div class="flex-row mg-t-30">
-                                <button class="btn primary-outlined-btn">Primary Button</button>
-                                <button class="btn secondary-outlined-btn">Secondary Button</button>
-                                <button class="btn success-outlined-btn">Success Button</button>
-                                <button class="btn warning-outlined-btn">Warning Button</button>
-                                <button class="btn danger-outlined-btn">Error Button</button>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe class="code-snip"
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary-outlined-btn%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520success-outlined-btn%2522%253ESuccess%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-outlined-btn%2522%253EWarning%2520Button%253C%252Fbutton%253E%2520%250A%253Cbutton%2520class%253D%2522btn%2520danger-outlined-btn%2522%253EError%2520Button%253C%252Fbutton%253E"
-                                loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title bold">Other Button Styles</h2>
-                        <div class="center-block">
-                            <div class="flex-row mg-t-30">
-                                <button class="btn ghost-btn">Ghost Mode</button>
-                                <button class="btn subtle-btn">Subtle Button</button>
-                                <button class="btn link-btn">Link</button>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520ghost-btn%2522%253EGhost%2520Mode%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520subtle-btn%2522%253ESubtle%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520link-btn%2522%253ELink%253C%252Fbutton%253E"
-                                loading="lazy" class="code-snip" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title bold">Floating Action button and Toggle Buttons</h2>
-                        <div class="center-block">
-                            <div class="flex-row mg-t-30">
-                                <button class="floating-btn">
-                                    <i class="fas fa-plus"></i>
-                                </button>
-                                <label class="switch">
-                                    <input type="checkbox">
-                                    <span class="slider"></span>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe class="code-snip"
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522floating-btn%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Clabel%2520class%253D%2522switch%2522%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522slider%2520round%2522%253E%253C%252Fspan%253E%250A%253C%252Flabel%253E"
-                                loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title bold">Buttons with Icons and Icon Buttons</h2>
-                        <div class="center-block">
-                            <div class="flex-row mg-t-30">
-                                <button class="btn primary-btn solid icon-left">
-                                    <i class="fas fa-shopping-cart"></i>
-                                    Add to Bag
-                                </button>
-                                <button class="btn warning-outlined-btn icon-right">
-                                    Add to Favourites
-                                    <i class="far fa-star"></i>
-                                </button>
-                                <button class="btn icon-btn danger-icon center-items">
-                                    <i class="fas fa-trash-alt"></i>
-                                </button>
-                                <button class="btn icon-btn center-items">
-                                    <i class="fas fa-shopping-cart"></i>
-                                </button>
-                                <button class="btn icon-btn primary-icon">
-                                    <i class="fas fa-bookmark"></i>
-                                </button>
-                                <button id="star-toggle-btn" class="btn icon-btn toggle-icon">
-                                    <i class="fas fa-star"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520solid%2520icon-left%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520Add%2520to%2520Bag%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-outlined-btn%2520icon-right%2522%253E%250A%2520%2520Add%2520to%2520Favourites%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520icon-btn%2520danger-icon%2520center-items%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520icon-btn%2520center-items%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520icon-btn%2520primary-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bookmark%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520id%253D%2522star-toggle-btn%2522%2520class%253D%2522btn%2520icon-btn%2520toggle-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
-                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                </section>
-                <!-- BUTTONS END -->
-
-
-                <!-- AVATAR START -->
-                <section id="avatar">
-                    <h1 class="lg-title">Avatar</h1>
-                    <p class="rg-p mg-t-10">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate architecto, esse
-                        consequuntur delectus vitae rerum corrupti consequatur aut est id dignissimos qui dolorum
-                        exercitationem facere eum eaque, porro commodi nihil.
-                    </p>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title bold">Profile Avatar </h2>
-                        <div class="center-block">
-                            <div class="flex-row mg-t-30">
-                                <div class="avatar lg">
-                                    <img class="img-resp round-img"
-                                        src="https://avatars.dicebear.com/api/bottts/:meow.svg?backgroundColor=black"
-                                        alt="avatar">
-                                </div>
-                                <div class="avatar md">
-                                    <img class="img-resp round-img"
-                                        src="https://avatars.dicebear.com/api/bottts/:meow.svg?backgroundColor=black"
-                                        alt="avatar">
-                                </div>
-                                <div class="avatar rg">
-                                    <img class="img-resp round-img"
-                                        src="https://avatars.dicebear.com/api/bottts/:meow.svg?backgroundColor=black"
-                                        alt="avatar">
-                                </div>
-                                <div class="avatar sm">
-                                    <img class="img-resp round-img"
-                                        src="https://avatars.dicebear.com/api/bottts/:meow.svg?backgroundColor=black"
-                                        alt="avatar">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe class="code-snip"
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520lg%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520md%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520rg%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520sm%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E"
-                                loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title bold">Text Avatars</h2>
-                        <div class="center-block">
-                            <div class="flex-row mg-t-30">
-                                <div class="avatar avatar-txt lg">
-                                    KS
-                                </div>
-                                <div class="avatar avatar-txt md">
-                                    KS
-                                </div>
-                                <div class="avatar avatar-txt rg ">
-                                    KS
-                                </div>
-                                <div class="avatar avatar-txt sm">
-                                    KS
-                                </div>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe class="code-snip"
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-txt%2520lg%2522%253E%2520KS%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-txt%2520md%2522%253E%2520KS%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-txt%2520rg%2522%253E%2520KS%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-txt%2520sm%2522%253E%2520KS%2520%253C%252Fdiv%253E"
-                                loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                </section>
-                <!-- AVATAR END -->
-
-
-
-                <!-- BADGES START -->
-                <section id="badges">
-                    <h1 class="lg-title">Badges</h1>
-                    <p class="rg-p mg-t-10">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate architecto, esse
-                        consequuntur delectus vitae rerum corrupti consequatur aut est id dignissimos qui dolorum
-                        exercitationem facere eum eaque, porro commodi nihil.
-                    </p>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title bold">Status Badge</h2>
-                        <div class="center-block">
-                            <div class="flex-row mg-t-30">
-                                <div class="avatar lg pos-rel">
-                                    <img class="avatar-img"
-                                        src="https://avatars.dicebear.com/api/bottts/:seed.svg?backgroundColor=black"
-                                        alt="avatar">
-                                    <i class="badge badge-left badge-grey"></i>
-                                </div>
-                                <div class="avatar md avatar-txt pos-rel">
-                                    KS
-                                    <i class="badge badge-right"></i>
-                                </div>
-                                <div class="avatar rg pos-rel">
-                                    <img class="avatar-img"
-                                        src="https://avatars.dicebear.com/api/bottts/:seed.svg?backgroundColor=black"
-                                        alt="avatar">
-                                    <i class="badge badge-right"></i>
-                                </div>
-                                <div class="avatar avatar-txt sm pos-rel">
-                                    KS
-                                    <i class="badge badge-right"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe class="code-snip"
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520lg%2520pos-rel%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%2509%253Ci%2520class%253D%2522badge%2520badge-left%2520badge-grey%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520md%2520avatar-txt%2520pos-rel%2522%253E%250A%2520%2509KS%2520%2520%253Ci%2520class%253D%2522badge%2520badge-right%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
-                                loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title bold">Text and Icon Badge</h2>
-                        <div class="center-block">
-                            <div class="flex-row mg-t-30">
-                                <div class="icon-badge pos-rel">
-                                    <i class="fas fa-book-open"></i>
-                                    <div class="badge num-badge center-items">
-                                        <p class="xsm-title">9</p>
-                                    </div>
-                                </div>
-                                <button class="btn icon-btn pos-rel">
-                                    <i class="fas fa-shopping-cart"></i>
-                                    <div class="badge num-sm-badge center-items">
-                                        <p class="xsm-title">9</p>
-                                    </div>
-                                </button>
-                                <div class="icon-badge">
-                                    <i class="fas fa-book-open"></i>
-                                </div>
-                                <div class="text-badge primary">
-                                    <p class="xsm-title">Bestseller</p>
-                                </div>
-                                <div class="text-badge secondary">
-                                    <p class="xsm-title">New</p>
-                                </div>
-                                <div class="text-badge primary">
-                                    <p class="sm-title bold">Trending</p>
-                                </div>
-                                <!-- <button class="btn icon-btn">
-                                <i class="fas fa-shopping-cart"></i>
-                            </button> -->
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe class="code-snip"
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522icon-badge%2520pos-rel%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-book-open%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520num-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522xsm-title%2522%253E%252B9%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522icon-badge%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-book-open%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522text-badge%2520primary%2522%253E%250A%2520%2509%2509%253Cp%2520class%253D%2522xsm-title%2522%253EBestseller%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522text-badge%2520secondary%2522%253E%250A%2509%2509%253Cp%2520class%253D%2522xsm-title%2522%253ENew%253C%252Fp%253E%250A%253C%252Fdiv%253E"
-                                loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                </section>
-                <!-- BADGES END -->
-
-
-                <!-- GRIDS START -->
-                <section id="grid">
-                    <h1 class="lg-title">Grid</h1>
-                    <p class="rg-p mg-t-10">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate architecto, esse
-                        consequuntur delectus vitae rerum corrupti consequatur aut est id dignissimos qui dolorum
-                        exercitationem facere eum eaque, porro commodi nihil.
-                    </p>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title">50-50 Grid Layout</h2>
-                        <div class="grid-layout-5050 mg-t-30">
-                            <div class="img-wrapper">
-                                <img class="img-resp" src="./Assets/Images/avatar-img.jpg" alt="grid image">
-                            </div>
-                            <div class="text-wrapper center-items">
-                                <div class="flex-col">
-                                    <p class="rg-title">Lorem ipsum </p>
-                                    <button class="btn primary-outlined-btn center-block">Explore</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-layout-5050%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-resp%2522%2520src%253D%2522...%2522%2520alt%253D%2522grid%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-wrapper%2520center-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522rg-title%2522%253ELorem%2520ipsum%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2520center-block%2522%253EExplore%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title">70-30 Grid Layout</h2>
-                        <div class="grid-layout-7030 mg-t-30">
-                            <div class="img-wrapper">
-                                <img class="img-resp" src="./Assets/Images/avatar-img.jpg" alt="grid image">
-                            </div>
-                            <div class="text-wrapper center-items">
-                                <div class="flex-col">
-                                    <p class="rg-title">Lorem ipsum</p>
-                                    <button class="btn primary-outlined-btn center-block">Explore</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-layout-7030%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-resp%2522%2520src%253D%2522...%2522%2520alt%253D%2522grid%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-wrapper%2520center-items%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522rg-title%2522%253ELorem%2520ipsum%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2520center-block%2522%253EExplore%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title">Three Column Grid Layout</h2>
-                        <div class="grid-layout-3col mg-t-30">
-                            <div class="text-wrapper center-items">
-                                <div class="flex-col">
-                                    <p class="md-booky-title bold">Lorem ipsum </p>
-                                    <button class="btn primary-outlined-btn center-block">Explore</button>
-                                </div>
-                            </div>
-                            <div class="img-wrapper">
-                                <img class="img-resp" src="./Assets/Images/avatar-img.jpg" alt="grid image">
-                            </div>
-                            <div class="text-wrapper center-items">
-                                <div class="flex-col">
-                                    <p class="md-booky-title bold">Lorem ipsum </p>
-                                    <button class="btn warning-outlined-btn center-block">Explore</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-layout-3col%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-wrapper%2520center-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522md-booky-title%2522%253ELorem%2520ipsum%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2520center-block%2522%253EExplore%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-wrapper%2522%253E%250A%2520%2520%2509%253Cimg%2520class%253D%2522img-resp%2522%2520src%253D%2522...%2522%2520alt%253D%2522grid%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-wrapper%2520center-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522md-booky-title%2522%253ELorem%2520ipsum%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520warning-outlined-btn%2520center-block%2522%253EExplore%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                </section>
-                <!-- GRIDS END -->
-
-
-                <!-- NAVBAR START -->
-                <section id="navbar">
-                    <h1 class="lg-title">NavBar</h1>
-                    <p class="rg-p mg-t-10">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate architecto, esse
-                        consequuntur delectus vitae rerum corrupti consequatur aut est id dignissimos qui dolorum
-                        exercitationem facere eum eaque, porro commodi nihil.
-                    </p>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title">Simple Navbar Example</h2>
-                        <div class="mg-t-30">
-                            <nav class="navbar">
-                                <div class="nav-logo">
-                                    <img src="Assets/Logo/logo-64.png" alt="logo" />
-                                </div>
-                                <div class="nav-space"></div>
-                                <div class="nav-items">
-                                    <a class="nav-link sm-title hide-md" href="">Home</a>
-                                    <a class="nav-link sm-title active hide-md" href="">Documentation</a>
-                                    <button id="dark-bg-icon" class="btn icon-btn show-md">
-                                        <i class="fas fa-solid fa-bars"></i>
-                                    </button>
-                                </div>
-                            </nav>
-                        </div>
-                        <div class="code-example">
-                            <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522nav-logo%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522logo%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522nav-space%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522nav-items%2522%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-link%2520sm-title%2522%2520href%253D%2522%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-link%2520sm-title%2520active%2522%2520href%253D%2522%2522%253EDocumentation%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
-                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title">Navbar Example</h2>
-                        <div class="mg-t-30">
-                            <nav class="navbar">
-                                <div class="nav-logo">
-                                    <img src="Assets/Logo/logo-64.png" alt="logo" />
-                                </div>
-                                <div class="nav-items">
-                                    <a class="nav-link sm-title hide-md" href="">Home</a>
-                                    <a class="nav-link sm-title active hide-md" href="">Documentation</a>
-                                </div>
-                                <div class="nav-space"></div>
-                                <div class="nav-icon-items">
-                                    <div class="nav-search-bar hide-sm">
-                                        <input class="search-bar" type="text" placeholder="Search..">
-                                        <i class="fa fa-brands fa-searchengin"></i>
-                                    </div>
-                                    <button id="dark-bg-icon" class="btn icon-btn hide-md">
-                                        <i class="fa fa-solid fa-user"></i>
-                                    </button>
-                                    <button id="dark-bg-icon" class="btn icon-btn hide-md">
-                                        <i class="fa fa-solid fa-heart"></i>
-                                    </button>
-                                    <button id="dark-bg-icon" class="btn icon-btn hide-md">
-                                        <i class="fas fa-shopping-cart"></i>
-                                    </button>
-                                    <button id="dark-bg-icon" class="btn icon-btn show-md">
-                                        <i class="fas fa-solid fa-bars"></i>
-                                    </button>
-                                </div>
-                            </nav>
-                        </div>
-                        <div class="code-example">
-                            <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-logo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522logo%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-link%2520sm-title%2522%2520href%253D%2522%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-link%2520sm-title%2520active%2522%2520href%253D%2522%2522%253EDocumentation%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-space%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-icon-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-search-bar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522search-bar%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Search..%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-brands%2520fa-searchengin%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522dark-bg-icon%2522%2520class%253D%2522btn%2520icon-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-solid%2520fa-user%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522dark-bg-icon%2522%2520class%253D%2522btn%2520icon-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-solid%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522dark-bg-icon%2522%2520class%253D%2522btn%2520icon-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
-                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                </section>
-                <!-- NAVBAR END -->
-
-
-
-
-                <!-- IMAGE START -->
-                <section id="image">
-                    <h1 class="lg-title">Images</h1>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title">Responsive Image</h2>
-                        <div class="center-block">
-                            <div class="mg-t-30">
-                                <div class="custom-img-container">
-                                    <img class="img-resp" src="./Assets/Images/respimg.jpg" alt="responsive image" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-resp%2522%2520src%253D%2522...%2522%2520alt%253D%2522responsive%2520image%2522%253E"
-                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title">Rounded Image</h2>
-                        <div class="center-block">
-                            <div class="mg-t-30">
-                                <div class="round-img-container">
-                                    <img class="round-img img-resp" src="./Assets/Images/avatar-img.jpg"
-                                        alt="round image" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522round-img%2520img-resp%2522%2520src%253D%2522...%2522%2520alt%253D%2522round%2520image%2522%2520%252F%253E"
-                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                </section>
-                <!-- IMAGE END -->
-
-
-
-                <!-- TYPOGRAPHY START -->
-                <section id="typography">
-                    <h1 class="lg-title">Typography</h1>
-                    <p class="rg-p mg-t-10">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate architecto, esse
-                        consequuntur delectus vitae rerum corrupti consequatur aut est id dignissimos qui dolorum
-                        exercitationem facere eum eaque, porro commodi nihil.
-                    </p>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title bold">Example of Standard Title Text</h2>
-                        <div class="center-items">
-                            <div class="typ-ex-grid mg-t-30">
-                                <h1 class="lg-title bold d-md-none">Large Title</h1>
-                                <div class="tag">
-                                    <p>3 rem</p>
-                                </div>
-                                <h1 class="rg-title bold d-md-none">Regular Title</h1>
-                                <div class="tag">
-                                    <p> 2 rem</p>
-                                </div>
-                                <h2 class="md-title bold d-md-none"> Medium Title</h2>
-                                <div class="tag">
-                                    <p>1.5 rem</p>
-                                </div>
-                                <h3 class="sm-title bold d-md-none">Small Title</h3>
-                                <div class="tag">
-                                    <p>1.2 rem</p>
-                                </div>
-                                <h4 class="xsm-title bold d-md-none">Extra Small Title</h4>
-                                <div class="tag">
-                                    <p>12 px</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522lg-title%2520bold%2522%253ELarge%2520Title%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522rg-title%2520bold%2522%253ERegular%2520Title%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522md-title%2520bold%2522%253E%2520Medium%2520Title%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522sm-title%2520bold%2522%253ESmall%2520Title%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522xsm-title%2520bold%2522%253EExtra%2520Small%2520Title%253C%252Fh4%253E"
-                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title bold">Example of Stylish Title Text</h2>
-                        <div class="center-items">
-                            <div class="typ-ex-grid mg-t-30">
-                                <h1 class="lg-booky-title bold">Large Title</h1>
-                                <div class="tag">
-                                    <p>2.5 rem</p>
-                                </div>
-                                <h2 class="md-booky-title bold">Regular Title</h2>
-                                <div class="tag">
-                                    <p>2 rem</p>
-                                </div>
-                                <h3 class="md-booky-title bold"> Medium Title</h3>
-                                <div class="tag">
-                                    <p>1.5 rem</p>
-                                </div>
-                                <h4 class="sm-booky-title bold">Small Title</h4>
-                                <div class="tag">
-                                    <p>1.2 rem</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522lg-booky-title%2520bold%2522%253ELarge%2520Booky%2520Title%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522md-booky-title%2520bold%2522%253ERegular%2520Booky%2520Title%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522md-booky-title%2520bold%2522%253E%2520Medium%2520Booky%2520Title%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522sm-booky-title%2520bold%2522%253ESmall%2520Booky%2520Title%253C%252Fh4%253E"
-                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title bold">Example of Paragraph Text</h2>
-                        <div class="center-items">
-                            <div class="typ-ex-grid mg-t-30">
-                                <p class="rg-p">Regular Paragraph text</p>
-                                <div class="tag">
-                                    <p>1.4 rem</p>
-                                </div>
-                                <p class="sm-p">Small Paragraph Text</p>
-                                <div class="tag">
-                                    <p>1.2 rem</p>
-                                </div>
-                                <p class="xsm-p">Extra Small Paragraph Text</p>
-                                <div class="tag">
-                                    <p>12 px</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522rg-p%2522%253ERegular%2520Paragraph%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2522%253ESmall%2520Paragraph%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522xsm-p%2522%253EExtra%2520Small%2520Paragraph%2520Text%253C%252Fp%253E"
-                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title bold">Example of Other Text Styles</h2>
-                        <div class="center-block">
-                            <div class="flex-row mg-t-30">
-                                <p class="sm-p light-grey-txt">TEXT</p>
-                                <p class="sm-p grey-txt">TEXT</p>
-                                <p class="sm-p bold">TEXT</p>
-                                <p class="sm-p violet-txt">TEXT</p>
-                                <p class="sm-p orange-txt">TEXT</p>
-                                <p class="sm-p striked-txt">TEXT</p>
-                            </div>
-                            <div class="mg-t-10">
-                                <p class="sm-p center-txt">CENTERED TEXT</p>
-                            </div>
-                        </div>
-                        <div class="code-example">
-                            <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522sm-p%2520light-grey-txt%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520grey-txt%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520bold%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520violet-txt%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520orange-txt%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520striked-txt%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520center-txt%2522%253ECENTERED%2520TEXT%253C%252Fp%253E"
-                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                            </iframe>
-                        </div>
-                    </div>
-                </section>
-                <!-- TYPOGRAPHY END -->
 
 
 
                 <!-- INPUT START -->
-                <section id="input">
-                    <h1 class="lg-title">Input</h1>
+                <section id="inputs">
+                    <h1 class="lg-title">Inputs</h1>
                     <p class="rg-p mg-t-10">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate architecto, esse
-                        consequuntur delectus vitae rerum corrupti consequatur aut est id dignissimos qui
-                        dolorum
-                        exercitationem facere eum eaque, porro commodi nihil.
+                        Inputs are fields that allow the user to enter information.
                     </p>
                     <div class="mg-t-40">
                         <h2 class="md-booky-title">Example of Inputs</h2>
@@ -963,99 +703,14 @@
 
 
 
-                <!-- TOAST START -->
-                <section id="toast">
-                    <h1 class="lg-title">Toast</h1>
-                    <p class="rg-p mg-t-10">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
-                        architecto, esse
-                        consequuntur delectus vitae rerum corrupti consequatur aut est id
-                        dignissimos qui dolorum
-                        exercitationem facere eum eaque, porro commodi nihil.
-                    </p>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title">Toast Example</h2>
-                        <div class="center-block">
-                            <div class="flex-col mg-t-30">
-                                <div class="toast success-toast">
-                                    <div class="flex-row">
-                                        <i class="fas fa-check-circle"></i>
-                                        <p class="sm-p bold">Success toast</p>
-                                    </div>
-                                    <i class="fas fa-times close-toast"></i>
-                                </div>
-                                <div class="toast warning-toast">
-                                    <div class="flex-row">
-                                        <i class="fas fa-exclamation-circle"></i>
-                                        <p class="sm-p bold">Warning toast</p>
-                                    </div>
-                                    <i class="fas fa-times close-toast"></i>
-                                </div>
-                                <div class="toast danger-toast">
-                                    <div class="flex-row">
-                                        <i class="fas fa-exclamation-triangle"></i>
-                                        <p class="sm-p bold">Error toast</p>
-                                    </div>
-                                    <i class="fas fa-times close-toast"></i>
-                                </div>
-                                <div class="flex-row">
-                                    <button id="show-bottom-toast" class="btn primary-btn solid">
-                                        Show Bottom Toast
-                                    </button>
-                                    <button id="show-top-toast" class="btn primary-btn solid">
-                                        Show Top Toast
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="code-example">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520success-toast%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-p%2520bold%2522%253ESuccess%2520toast%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520warning-toast%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-p%2520bold%2522%253EWarning%2520toast%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520danger-toast%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-p%2520bold%2522%253EError%2520toast%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
-                            class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </div>
-                </section>
-                <!-- TOAST END -->
-
-
-
-                <!-- SLIDER START -->
-                <section id="slider">
-                    <h1 class="lg-title">Slider</h1>
-                    <p class="rg-p mg-t-10">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
-                        architecto, esse
-                        consequuntur delectus vitae rerum corrupti consequatur aut est id
-                        dignissimos qui dolorum
-                        exercitationem facere eum eaque, porro commodi nihil.
-                    </p>
-                    <div class="mg-t-40">
-                        <h2 class="md-booky-title">Slider Example</h2>
-                    </div>
-                    <div class="center-block">
-                        <div class="flex-col mg-t-30">
-                            <input id="range-slider" type="range" min="0" max="100" value="50">
-                            <p id="slider-value" class="sm-p">value: </p>
-                        </div>
-                    </div>
-                    <div class="code-example">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cinput%2520id%253D%2522range-slider%2522%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%253E%250A%253Cp%2520id%253D%2522slider-value%2522%2520class%253D%2522sm-p%2520bold%2522%253Evalue%253A%2520%253C%252Fp%253E"
-                            class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </div>
-                </section>
-                <!-- SLIDER END -->
-
 
 
                 <!-- LISTS START -->
                 <section id="lists">
                     <h1 class="lg-title">Lists</h1>
-                    <p class="rg-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga asperiores sit saepe,
-                        explicabo, exercitationem officia doloribus dolorum consequuntur porro fugiat aliquam alias,
-                        vitae illo maiores recusandae voluptatem. Voluptatem, dolor laudantium.</p>
+                    <p class="rg-p mg-t-10">Lists are columns or rows of elements such as text or cards that are widely
+                        used to
+                        organise information. Notifications and navbars are common examples.</p>
                     <div class="mg-t-40">
                         <h2 class="md-booky-title bold">Stacked unordered lists</h2>
                         <div class="center-block">
@@ -1134,13 +789,91 @@
 
 
 
+
+
+
+                <!-- NAVBAR START -->
+                <section id="navbar">
+                    <h1 class="lg-title">NavBar</h1>
+                    <p class="rg-p mg-t-10">
+                        The NavBar is used to display the most important and often used sections of a website at the top
+                        of the page for the user's convenience.
+                    </p>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title">Simple Navbar Example</h2>
+                        <div class="mg-t-30">
+                            <nav class="navbar">
+                                <div class="nav-logo">
+                                    <img src="Assets/Logo/logo-64.png" alt="logo" />
+                                </div>
+                                <div class="nav-space"></div>
+                                <div class="nav-items">
+                                    <a class="nav-link sm-title hide-md" href="">Home</a>
+                                    <a class="nav-link sm-title active hide-md" href="">Documentation</a>
+                                    <button id="dark-bg-icon" class="btn icon-btn show-md">
+                                        <i class="fas fa-solid fa-bars"></i>
+                                    </button>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522nav-logo%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522logo%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522nav-space%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522nav-items%2522%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-link%2520sm-title%2522%2520href%253D%2522%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-link%2520sm-title%2520active%2522%2520href%253D%2522%2522%253EDocumentation%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title">Navbar Example</h2>
+                        <div class="mg-t-30">
+                            <nav class="navbar">
+                                <div class="nav-logo">
+                                    <img src="Assets/Logo/logo-64.png" alt="logo" />
+                                </div>
+                                <div class="nav-items">
+                                    <a class="nav-link sm-title hide-md" href="">Home</a>
+                                    <a class="nav-link sm-title active hide-md" href="">Documentation</a>
+                                </div>
+                                <div class="nav-space"></div>
+                                <div class="nav-icon-items">
+                                    <div class="nav-search-bar hide-sm">
+                                        <input class="search-bar" type="text" placeholder="Search..">
+                                        <i class="fa fa-brands fa-searchengin"></i>
+                                    </div>
+                                    <button id="dark-bg-icon" class="btn icon-btn hide-md">
+                                        <i class="fa fa-solid fa-user"></i>
+                                    </button>
+                                    <button id="dark-bg-icon" class="btn icon-btn hide-md">
+                                        <i class="fa fa-solid fa-heart"></i>
+                                    </button>
+                                    <button id="dark-bg-icon" class="btn icon-btn hide-md">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </button>
+                                    <button id="dark-bg-icon" class="btn icon-btn show-md">
+                                        <i class="fas fa-solid fa-bars"></i>
+                                    </button>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-logo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522logo%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-link%2520sm-title%2522%2520href%253D%2522%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-link%2520sm-title%2520active%2522%2520href%253D%2522%2522%253EDocumentation%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-space%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-icon-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-search-bar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522search-bar%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Search..%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-brands%2520fa-searchengin%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522dark-bg-icon%2522%2520class%253D%2522btn%2520icon-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-solid%2520fa-user%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522dark-bg-icon%2522%2520class%253D%2522btn%2520icon-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-solid%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522dark-bg-icon%2522%2520class%253D%2522btn%2520icon-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>
+                <!-- NAVBAR END -->
+
+
+
+
                 <!-- MODAL START -->
                 <section id="modal">
                     <h1 class="lg-title">Modal</h1>
-                    <p class="rg-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat similique
-                        provident
-                        asperiores possimus consequatur est quas, autem accusantium deleniti. Perferendis, repellat
-                        possimus. Illum voluptates voluptatem vitae ut eaque unde nostrum?</p>
+                    <p class="rg-p mg-t-10">Modals are used to show important information to the user and is closed only
+                        when
+                        the user selects an option thats present on the modal.</p>
                     <div class="mg-t-40">
                         <h2 class="md-booky-title">Modal Example</h2>
                         <div class="center-block">
@@ -1160,13 +893,95 @@
 
 
 
+
+                <!-- TOAST START -->
+                <section id="toast">
+                    <h1 class="lg-title">Toast</h1>
+                    <p class="rg-p mg-t-10">
+                        Toasts are used to acknowledge the outcome of an action. Using a toast helps to draw the user's
+                        attention to the outcome of their action.
+                    </p>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title">Toast Example</h2>
+                        <div class="center-block">
+                            <div class="flex-col mg-t-30">
+                                <div class="toast success-toast">
+                                    <div class="flex-row">
+                                        <i class="fas fa-check-circle"></i>
+                                        <p class="sm-p bold">Success toast</p>
+                                    </div>
+                                    <i class="fas fa-times close-toast"></i>
+                                </div>
+                                <div class="toast warning-toast">
+                                    <div class="flex-row">
+                                        <i class="fas fa-exclamation-circle"></i>
+                                        <p class="sm-p bold">Warning toast</p>
+                                    </div>
+                                    <i class="fas fa-times close-toast"></i>
+                                </div>
+                                <div class="toast danger-toast">
+                                    <div class="flex-row">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                        <p class="sm-p bold">Error toast</p>
+                                    </div>
+                                    <i class="fas fa-times close-toast"></i>
+                                </div>
+                                <div class="flex-row">
+                                    <button id="show-bottom-toast" class="btn primary-btn solid">
+                                        Show Bottom Toast
+                                    </button>
+                                    <button id="show-top-toast" class="btn primary-btn solid">
+                                        Show Top Toast
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-example">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520success-toast%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-p%2520bold%2522%253ESuccess%2520toast%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520warning-toast%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-p%2520bold%2522%253EWarning%2520toast%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520danger-toast%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sm-p%2520bold%2522%253EError%2520toast%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                            class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!-- TOAST END -->
+
+
+
+
+
+                <!-- SLIDER START -->
+                <section id="slider">
+                    <h1 class="lg-title">Slider</h1>
+                    <p class="rg-p mg-t-10">
+                        Slider allows the user to select a range of values. Typically used to filter items.
+                    </p>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title">Slider Example</h2>
+                    </div>
+                    <div class="center-block">
+                        <div class="flex-col mg-t-30">
+                            <input id="range-slider" type="range" min="0" max="100" value="50">
+                            <p id="slider-value" class="sm-p">value: </p>
+                        </div>
+                    </div>
+                    <div class="code-example">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cinput%2520id%253D%2522range-slider%2522%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%253E%250A%253Cp%2520id%253D%2522slider-value%2522%2520class%253D%2522sm-p%2520bold%2522%253Evalue%253A%2520%253C%252Fp%253E"
+                            class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!-- SLIDER END -->
+
+
+
                 <!-- RATING START -->
                 <section id="rating">
                     <h1 class="lg-title">Rating</h1>
-                    <p class="rg-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat similique
-                        provident
-                        asperiores possimus consequatur est quas, autem accusantium deleniti. Perferendis, repellat
-                        possimus. Illum voluptates voluptatem vitae ut eaque unde nostrum?</p>
+                    <p class="rg-p mg-t-10">The Rating component provides an interactive mechanism for users to submit
+                        their
+                        feedback on an object.</p>
                     <div class="mg-t-40">
                         <h2 class="md-booky-title">Rating Example</h2>
                         <div class="center-block">
@@ -1192,6 +1007,211 @@
                     </div>
                 </section>
                 <!-- RATING END -->
+
+
+
+
+                <!-- TYPOGRAPHY START -->
+                <section id="typography">
+                    <h1 class="lg-title">Typography</h1>
+                    <p class="rg-p mg-t-10">
+                        The most commonly used types of text, styles and their sizes are listed below.
+                    </p>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title bold">Example of Standard Title Text</h2>
+                        <div class="center-items">
+                            <div class="typ-ex-grid mg-t-30">
+                                <h1 class="lg-title bold d-md-none">Large Title</h1>
+                                <div class="tag">
+                                    <p>3 rem</p>
+                                </div>
+                                <h1 class="rg-title bold d-md-none">Regular Title</h1>
+                                <div class="tag">
+                                    <p> 2 rem</p>
+                                </div>
+                                <h2 class="md-title bold d-md-none"> Medium Title</h2>
+                                <div class="tag">
+                                    <p>1.5 rem</p>
+                                </div>
+                                <h3 class="sm-title bold d-md-none">Small Title</h3>
+                                <div class="tag">
+                                    <p>1.2 rem</p>
+                                </div>
+                                <h4 class="xsm-title bold d-md-none">Extra Small Title</h4>
+                                <div class="tag">
+                                    <p>12 px</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522lg-title%2520bold%2522%253ELarge%2520Title%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522rg-title%2520bold%2522%253ERegular%2520Title%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522md-title%2520bold%2522%253E%2520Medium%2520Title%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522sm-title%2520bold%2522%253ESmall%2520Title%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522xsm-title%2520bold%2522%253EExtra%2520Small%2520Title%253C%252Fh4%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title bold">Example of Stylish Title Text</h2>
+                        <div class="center-items">
+                            <div class="typ-ex-grid mg-t-30">
+                                <h1 class="lg-booky-title bold">Large Title</h1>
+                                <div class="tag">
+                                    <p>2.5 rem</p>
+                                </div>
+                                <h2 class="rg-booky-title bold">Regular Title</h2>
+                                <div class="tag">
+                                    <p>2 rem</p>
+                                </div>
+                                <h3 class="md-booky-title bold"> Medium Title</h3>
+                                <div class="tag">
+                                    <p>1.5 rem</p>
+                                </div>
+                                <h4 class="sm-booky-title bold">Small Title</h4>
+                                <div class="tag">
+                                    <p>1.2 rem</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522lg-booky-title%2520bold%2522%253ELarge%2520Booky%2520Title%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522md-booky-title%2520bold%2522%253ERegular%2520Booky%2520Title%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522md-booky-title%2520bold%2522%253E%2520Medium%2520Booky%2520Title%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522sm-booky-title%2520bold%2522%253ESmall%2520Booky%2520Title%253C%252Fh4%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title bold">Example of Paragraph Text</h2>
+                        <div class="center-items">
+                            <div class="typ-ex-grid mg-t-30">
+                                <p class="rg-p">Regular Paragraph text</p>
+                                <div class="tag">
+                                    <p>1.4 rem</p>
+                                </div>
+                                <p class="sm-p">Small Paragraph Text</p>
+                                <div class="tag">
+                                    <p>1.2 rem</p>
+                                </div>
+                                <p class="xsm-p">Extra Small Paragraph Text</p>
+                                <div class="tag">
+                                    <p>12 px</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522rg-p%2522%253ERegular%2520Paragraph%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2522%253ESmall%2520Paragraph%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522xsm-p%2522%253EExtra%2520Small%2520Paragraph%2520Text%253C%252Fp%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title bold">Example of Other Text Styles</h2>
+                        <div class="center-block">
+                            <div class="flex-row mg-t-30">
+                                <p class="sm-p light-grey-txt">TEXT</p>
+                                <p class="sm-p grey-txt">TEXT</p>
+                                <p class="sm-p bold">TEXT</p>
+                                <p class="sm-p violet-txt">TEXT</p>
+                                <p class="sm-p orange-txt">TEXT</p>
+                                <p class="sm-p striked-txt">TEXT</p>
+                            </div>
+                            <div class="mg-t-10">
+                                <p class="sm-p center-txt">CENTERED TEXT</p>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522sm-p%2520light-grey-txt%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520grey-txt%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520bold%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520violet-txt%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520orange-txt%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520striked-txt%2522%253ETEXT%253C%252Fp%253E%250A%253Cp%2520class%253D%2522sm-p%2520center-txt%2522%253ECENTERED%2520TEXT%253C%252Fp%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>
+                <!-- TYPOGRAPHY END -->
+
+
+
+
+
+                <!-- GRIDS START -->
+                <section id="grid">
+                    <h1 class="lg-title">Grid</h1>
+                    <p class="rg-p mg-t-10">
+                        Grids can be used to layout your page or a section of it. Some commonly used grid layouts are
+                        given below. Make sure to give your custom constraints to the image.
+                    </p>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title">50-50 Grid Layout</h2>
+                        <div class="grid-layout-5050 mg-t-30">
+                            <div class="img-wrapper">
+                                <img class="img-resp" src="./Assets/Images/avatar-img.jpg" alt="grid image">
+                            </div>
+                            <div class="text-wrapper center-items">
+                                <div class="flex-col">
+                                    <p class="rg-title">Lorem ipsum </p>
+                                    <button class="btn primary-outlined-btn center-block">Explore</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-layout-5050%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-resp%2522%2520src%253D%2522...%2522%2520alt%253D%2522grid%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-wrapper%2520center-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522rg-title%2522%253ELorem%2520ipsum%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2520center-block%2522%253EExplore%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title">70-30 Grid Layout</h2>
+                        <div class="grid-layout-7030 mg-t-30">
+                            <div class="img-wrapper">
+                                <img class="img-resp" src="./Assets/Images/avatar-img.jpg" alt="grid image">
+                            </div>
+                            <div class="text-wrapper center-items">
+                                <div class="flex-col">
+                                    <p class="rg-title">Lorem ipsum</p>
+                                    <button class="btn primary-outlined-btn center-block">Explore</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-layout-7030%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-resp%2522%2520src%253D%2522...%2522%2520alt%253D%2522grid%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-wrapper%2520center-items%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522rg-title%2522%253ELorem%2520ipsum%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2520center-block%2522%253EExplore%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="mg-t-40">
+                        <h2 class="md-booky-title">Three Column Grid Layout</h2>
+                        <div class="grid-layout-3col mg-t-30">
+                            <div class="text-wrapper center-items">
+                                <div class="flex-col">
+                                    <p class="md-booky-title bold">Lorem ipsum </p>
+                                    <button class="btn primary-outlined-btn center-block">Explore</button>
+                                </div>
+                            </div>
+                            <div class="img-wrapper">
+                                <img class="img-resp" src="./Assets/Images/avatar-img.jpg" alt="grid image">
+                            </div>
+                            <div class="text-wrapper center-items">
+                                <div class="flex-col">
+                                    <p class="md-booky-title bold">Lorem ipsum </p>
+                                    <button class="btn warning-outlined-btn center-block">Explore</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-example">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28189%2C213%2C234%2C0%29&t=vscode&wt=sharp&l=auto&width=859&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=144%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-layout-3col%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-wrapper%2520center-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522md-booky-title%2522%253ELorem%2520ipsum%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-outlined-btn%2520center-block%2522%253EExplore%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-wrapper%2522%253E%250A%2520%2520%2509%253Cimg%2520class%253D%2522img-resp%2522%2520src%253D%2522...%2522%2520alt%253D%2522grid%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-wrapper%2520center-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522md-booky-title%2522%253ELorem%2520ipsum%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520warning-outlined-btn%2520center-block%2522%253EExplore%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                class="code-snip" loading="lazy" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>
+                <!-- GRIDS END -->
+
+
+
+
 
 
 
@@ -1222,7 +1242,7 @@
                 </div>
             </footer>
         </div>
-        <div class="floating-btn bottom-right custom">
+        <div id="fab-totop" class="fab bottom-right custom">
             <i class="fas fa-arrow-up"></i>
         </div>
     </main>
@@ -1277,6 +1297,7 @@
     <script src="Components/Modal/modal.js"></script>
     <script src="Components/Rating/rating.js"></script>
     <script src="Components/Button/button.js"></script>
+    <script src="Components/FloatingButton/floatingbtn.js"></script>
 </body>
 
 </html>
