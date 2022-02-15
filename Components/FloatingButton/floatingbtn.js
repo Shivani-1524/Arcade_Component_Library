@@ -1,7 +1,6 @@
 const fabToTop = document.getElementById('fab-totop')
+const scrollContainer = document.getElementById('scroll-container')
 
 fabToTop.addEventListener("click", () => {
-    window.scrollTo(0, 0);
-    document.documentElement.scrollTop = 0;
-    document.body.scrollTo(0, 0)
+    scrollContainer.scrollTo(0, 0);
 })
