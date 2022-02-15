@@ -32,6 +32,46 @@
   padding: 0.6rem 1.2rem;
 }
 
+.ghost-btn {
+  height: min-content;
+  padding: 5px;
+  border-bottom: 2px solid var(--neon-green-color);
+}
+.ghost-btn:hover {
+  transition: all 0.2s ease-in-out;
+  border-bottom: 2px solid transparent;
+  background-color: var(--neon-color-light);
+}
+
+.subtle-btn {
+  height: min-content;
+  border: 1px solid var(--grey);
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: var(--dark-grey);
+}
+.subtle-btn:hover {
+  border: 1px solid var(--violet-color);
+}
+
+.link-btn {
+  height: min-content;
+  padding: 0;
+  border-radius: 0;
+  border-bottom: 2px solid var(--yellow-color);
+  color: var(--violet-color);
+}
+
+.icon-btn.toggle-icon:hover {
+  background-color: transparent;
+}
+.icon-btn.toggle-icon {
+  padding: 0;
+  width: min-content;
+  height: min-content;
+  color: var(--light-grey);
+}
+
 .icon-btn {
   width: 2.5rem;
   height: 2.5rem;
