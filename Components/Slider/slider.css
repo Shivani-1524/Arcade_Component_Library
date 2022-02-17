@@ -16,7 +16,7 @@ input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: 10px;
   cursor: pointer;
-  background: var(--violet-color);
+  background: var(--hot-pink-color);
   box-shadow: -200px 0 0 200px var(--neon-color-light);
 }
 
