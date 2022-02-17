@@ -2,7 +2,7 @@ input[type="range"] {
   overflow: hidden;
   width: 200px;
   -webkit-appearance: none;
-  background-color: var(--yellow-color-light);
+  background-color: var(--extra-light-grey);
 }
 
 input[type="range"]::-webkit-slider-runnable-track {
@@ -17,7 +17,7 @@ input[type="range"]::-webkit-slider-thumb {
   height: 10px;
   cursor: pointer;
   background: var(--violet-color);
-  box-shadow: -200px 0 0 200px var(--violet-color-light);
+  box-shadow: -200px 0 0 200px var(--neon-color-light);
 }
 
 input[type="range"]::-moz-range-progress {
