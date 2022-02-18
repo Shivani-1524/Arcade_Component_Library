@@ -4,6 +4,21 @@
   position: absolute;
 }
 
+.rating-row.bdg {
+  display: flex;
+  padding: 4px;
+  border-radius: 2px;
+  align-items: center;
+  background-color: var(--light-grey);
+}
+.rating-row.bdg .badge-star {
+  font-size: 1rem;
+}
+.rating-row.bdg .badge-circle {
+  font-size: 3px;
+  color: var(--grey);
+}
+
 .avatar.lg i {
   width: 2rem;
   height: 2rem;

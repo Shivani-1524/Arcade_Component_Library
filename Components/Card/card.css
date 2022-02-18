@@ -21,6 +21,7 @@
   width: 100%;
   min-width: 350px;
   display: grid;
+  max-height: 19rem;
   grid-template-columns: 200px 1fr;
   grid-template-rows: auto;
   align-items: center;
@@ -43,16 +44,14 @@
 }
 
 .ver-card {
-  width: 15rem;
-  min-width: max-content;
+  width: 18rem;
   height: max-content;
   display: grid;
   grid-template-rows: 19.2rem auto;
 }
 .ver-lg-card {
-  width: 100%;
-  max-width: 27rem;
-  height: fit-content;
+  width: 27rem;
+  height: max-content;
   display: grid;
   grid-template-rows: 15rem auto;
 }
@@ -65,26 +64,49 @@
   bottom: 5px;
   right: 5px;
 }
+.top-left {
+  top: 0;
+  left: 0;
+}
+.bottom-left {
+  bottom: 10px;
+  left: 7px;
+}
 
 .img-container {
   border-radius: inherit;
 }
 
 .ver-card .img-container {
-  width: 100%;
+  width: 18rem;
+  height: 19.2rem;
 }
 
 .hor-card .img-container {
+  max-height: 19rem;
   height: 100%;
-  width: 13rem;
+  width: 14rem;
   margin-right: 30px;
+  overflow: hidden;
+}
+
+.ver-card .primary-outlined-btn,
+.ver-card .primary-btn {
+  width: 100%;
+}
+
+.price-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  align-items: center;
 }
 
 .hor-card .text-card {
-  height: auto;
+  height: 100%;
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
+  justify-content: center;
+  flex-flow: column wrap;
 }
 
 .ver-card .text-card,
