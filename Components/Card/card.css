@@ -56,19 +56,19 @@
   grid-template-rows: 15rem auto;
 }
 
-.icon-badge.top-right {
+.card .top-right {
   top: 5px;
   right: 5px;
 }
-.icon-badge.bottom-right {
+.card .bottom-right {
   bottom: 5px;
   right: 5px;
 }
-.top-left {
+.card .top-left {
   top: 0;
   left: 0;
 }
-.bottom-left {
+.card .bottom-left {
   bottom: 10px;
   left: 7px;
 }
